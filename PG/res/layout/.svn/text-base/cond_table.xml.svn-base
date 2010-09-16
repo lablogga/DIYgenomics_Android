@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:id="@+id/cond_table_title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="24dip"
+		android:textColor="#ff000000"
+		android:text="title"
+		android:background="#ffc0c0c0"/>	
+				
+<!-- 				
+	<TextView 
+		android:id="@+id/color_code"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="14dip"
+		android:textColor="#ff000000"
+		android:text="@string/color_code" 
+		android:background="#ffffffff"/>				
+-->					
+ 	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/cond_table_header"
+	android:layout_below="@id/cond_table_title"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="#ffd0d0d0"
+	android:paddingRight="36sp">
+	
+	<TextView android:id="@+id/ctable_header_locus"
+		android:layout_width="90dip"
+		android:layout_height="wrap_content"
+		android:textSize="14dip"
+		android:textColor="#ff000000"
+		android:text="Locus"
+		/>
+	<TextView android:id="@+id/ctable_header_gene"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="14dip"
+		android:textColor="#ff000000"
+		android:text="Gene"
+		android:lines="1"
+		android:scrollHorizontally="true"
+		android:layout_weight="1"
+		/>
+		
+	<TextView android:id="@+id/ctable_header_var"
+		android:layout_width="90dip"
+		android:layout_height="wrap_content"
+		android:textSize="14dip"
+		android:textColor="#ff000000"
+		android:text="Variant"
+		/>		
+		
+	</LinearLayout>
+		
+		
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:id="@+id/cond_table_bottom"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="#ffffffff"
+	>
+	<TextView 
+		android:id="@+id/deCODEme"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="14dip"
+		android:textColor="#ffff0000"
+		android:text="@string/deCODEme" 
+		android:paddingLeft="12dip"
+		/>	
+	<ImageView android:id="@+id/cvti_comp1"
+		android:layout_width="12dip"
+		android:layout_height="12dip"
+		android:src="@drawable/company1"
+		android:gravity="bottom"
+		android:layout_marginLeft="4dip" 
+		/>
+					
+	<TextView 
+		android:id="@+id/Navigenics"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="14dip"
+		android:textColor="#ff00ff00"
+		android:text="@string/Navigenics" 
+		android:paddingLeft="12dip"
+		/>
+	<ImageView android:id="@+id/cvti_comp2"
+		android:layout_width="12dip"
+		android:layout_height="12dip"
+		android:layout_marginLeft="4dip" 
+		android:src="@drawable/company2" />
+	<TextView 
+		android:id="@+id/Twenty3andme"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="14dip"
+		android:textColor="#ff0000ff"
+		android:text="@string/Twenty3andme"
+		android:paddingLeft="12dip"
+	/>
+	<ImageView android:id="@+id/cvti_comp3"
+		android:layout_width="12dip"
+		android:layout_height="12dip"
+		android:layout_marginLeft="4dip" 
+		android:src="@drawable/company3" />
+
+	</LinearLayout>	
+
+	<ListView 
+		android:id="@+id/cond_table_list"
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent"
+		android:layout_below="@id/cond_table_header"
+		android:layout_above="@id/cond_table_bottom"
+		android:background="#ffffffff" 
+		android:cacheColorHint="#ffffffff"
+		
+		/>
+
+		
+</RelativeLayout>
