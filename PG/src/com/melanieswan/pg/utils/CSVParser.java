@@ -27,12 +27,28 @@ public class CSVParser {
         // read off first line with table headers
         line = reader.readLine();
       }
+      String del = ",";
       int ix = 0;
       while ((line = reader.readLine()) != null) {
         Row row = new Row(); 
-        StringTokenizer st = new StringTokenizer(line,",");
+        StringTokenizer st = new StringTokenizer(line,del, true);
+        boolean lastWasDelimiter = false;
         while (st.hasMoreTokens()) {
-          row.add(st.nextToken());
+        	String tok = st.nextToken();
+        	
+        	if (tok.equals(del)) {
+        		if (lastWasDelimiter) {
+        			row.add("");
+        		}
+        		lastWasDelimiter = true;
+        	} else {
+        		row.add(tok);
+        		lastWasDelimiter = false;
+        	}
+        }
+        if (lastWasDelimiter) {
+        	// compensate for missing last element
+        	row.add("");
         }
         lines.add(row);
         ix++;

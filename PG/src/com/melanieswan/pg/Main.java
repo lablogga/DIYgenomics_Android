@@ -1,98 +1,88 @@
 package com.melanieswan.pg;
 
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.AdapterView.OnItemClickListener;
 
-public class Main extends Activity {
-  
+import com.flurry.android.FlurryAgent;
+import com.melanieswan.pg.Data.LoaderCallback;
+import com.melanieswan.pg.utils.Flurry;
+
+/**
+ * the main activity show an initial graphic and a progress spinner while
+ * loading the data load data in background
+ */
+public class Main extends Activity implements LoaderCallback {
+
+	static Data sData;
+
+	/** Called when the activity is first created. */
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		if (sData == null) {
+			loadData(this, this);
+		} else {
+			done(sData);
+		}
+		View view = getLayoutInflater().inflate(R.layout.main, null);
+		setContentView(view);
+	}
+
+	@Override
+	public void onStart() {
+		super.onStart();
+		FlurryAgent.onStartSession(this, Flurry.KEY);
+	}
+
+	@Override
+	public void onStop() {
+		FlurryAgent.onEndSession(this);
+		super.onStop();
+	}
+
+	private static void initializeData(final Activity context, final LoaderCallback callback) {
+		AsyncTask<Void, Void, Void> loader = new AsyncTask<Void, Void, Void>() {
+
+			@Override
+			protected Void doInBackground(Void... arg0) {
+				sData.loadCategory(context.getAssets(), 
+						"Health Conditions", "conditions.csv", 4);
+				sData.loadCategory(context.getAssets(), 
+						"Drug Response", "drugs.csv", 5);
+				sData.loadCategory(context.getAssets(), 
+						"Athletic Performance",	"athperf_cats.csv", 6);
+				sData.load(context.getAssets());
+				sData.loadGenome(context);
+				return null;
+			}
+
+			protected void onPostExecute(Void result) {
+				callback.done(sData);
+			}
+		};
+		loader.execute((Void) null);
+
+	}
+
+	public static Data loadData(Activity activity, LoaderCallback callback) {
+		if (sData == null) {
+			sData = Data.getInstance();
+			initializeData(activity, callback);
+			return null;
+		} else {
+			return sData;
+		}
+	}
+
+	public static Data getData() {
+		return sData;
+	}
 	
-  static final String EXTRA_COND = "condition";
-  
-  ArrayList<String> conditions;
-  
-  CondAdapter conditionAdapter;
-  
-  ListView mConditionView;
-  
-  /** Called when the activity is first created. */ 
-  @Override
-  public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    initializeData();
-    View view = getLayoutInflater().inflate(R.layout.main, null);
-    mConditionView = (ListView)view.findViewById(R.id.main_conditions);
-    mConditionView.setSelector(getResources().getDrawable(R.drawable.list_selector_background));
-    mConditionView.setDrawSelectorOnTop(true);
-    conditionAdapter = new CondAdapter();
-    mConditionView.setAdapter(conditionAdapter);
-    mConditionView.setOnItemClickListener(new OnItemClickListener() {
-      public void onItemClick(AdapterView<?> list, View view, int pos, long arg3) {
-        String condition = (String)conditions.get(pos+1);
-        Intent intent = new Intent();
-        intent.putExtra(EXTRA_COND, condition);
-        intent.setClassName("com.melanieswan.pg", ConditionTableActivity.class.getName());
-        startActivity(intent);
-        
-      }
-    });
-    setContentView(view);
-  }
-  
-  
-  
+	public void done(Data data) {
+		startActivity(new Intent(Main.this, CategoriesActivity.class));
+	}
 
-  private void initializeData() {
-    CSVData.load(getAssets());
-    conditions = CSVData.conditions;
-  }
-  
-  class CondAdapter extends BaseAdapter {
-
-		@Override
-		public int getCount() {
-			return conditions.size()-1; 
-		}
-
-		@Override 
-		public Object getItem(int position) {
-			return conditions.get(position+1);
-		}
-
-		@Override
-		public long getItemId(int position) {
-			return position+1;
-		}
-
-		@Override
-		public View getView(int position, View convertView, ViewGroup parent) {
-			if (convertView == null) {
-				convertView = new TextView(Main.this);
-			}
-			TextView tv = (TextView)convertView;
-			if (position % 2 == 0) {
-				tv.setBackgroundColor(Constants.COLOR_BG1);
-			} else {
-				tv.setBackgroundColor(Constants.COLOR_BG2);
-			}
-			tv.setText((String)getItem(position));
-			tv.setTextSize(24);
-			tv.setPadding(4,4,4,4);
-			tv.setTextColor(Color.BLACK);
-			
-			return tv;
-		}
-  	
-  }
-  
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dots"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="4dip"
+	android:layout_marginBottom="1dip"
+	android:orientation="horizontal">
+	<TextView
+		android:layout_width="0dip"
+		android:layout_height="12dip"
+		android:layout_weight="0.16"
+		android:id="@+id/comp1"
+		android:background="@color/comp1"
+		android:gravity="center"
+		style="@style/CompanyName" />
+	<TextView
+		android:layout_width="0dip"
+		android:layout_height="12dip"
+		android:layout_weight="0.16"
+		android:id="@+id/comp2"
+		android:background="@color/comp2"
+		android:gravity="center"
+		style="@style/CompanyName" />
+	<TextView
+		android:layout_width="0dip"
+		android:layout_height="12dip"
+		android:layout_weight="0.16"
+		android:id="@+id/comp3"
+		android:background="@color/comp3"
+		android:gravity="center"
+		style="@style/CompanyName" />
+	<TextView
+		android:layout_width="0dip"
+		android:layout_height="12dip"
+		android:layout_weight="0.16"
+		android:id="@+id/comp4"
+		android:background="@color/comp4"
+		android:gravity="center"
+		style="@style/CompanyName" />
+	<TextView
+		android:layout_width="0dip"
+		android:layout_height="12dip"
+		android:layout_weight="0.16"
+		android:id="@+id/comp5"
+		android:background="@color/comp5"
+		android:gravity="center"
+		style="@style/CompanyName" />
+	<TextView
+		android:layout_width="0dip"
+		android:layout_height="12dip"
+		android:layout_weight="0.16"
+		android:id="@+id/comp6"
+		android:background="@color/comp6"
+		android:gravity="center"
+		style="@style/CompanyName" />
+</LinearLayout>

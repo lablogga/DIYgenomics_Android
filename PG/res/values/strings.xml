@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Main!</string>
-    <string name="app_name">PersonalGenomics</string>
-    <string name="color_code">deCODEme: (red square), Navigenics: (green square), 23andme: (blue square)</string>
-    <string name="deCODEme">deCODEme</string>
-    <string name="Navigenics">Navigenics</string>
-    <string name="Twenty3andme">23andme</string>
+	<string name="app_name">DIYGenomics</string>
+	<string name="color_code">deCODEme: (red square), Navigenics: (green square),
+		23andme: (blue square)</string>
+	<string name="deCODEme">deCODEme</string>
+	<string name="Navigenics">Navigenics</string>
+	<string name="Twenty3andme">23andMe</string>
+	<string name="imp_label">Importing genotype data</string>
+	<string name="imp_warning">Only a 23andMe zip file can be imported.</string>
+	<string name="imp_cancel">Cancel</string>
+	<string name="imp_continue">Continue</string>
+	<string name="categories_title">Categories</string>
 </resources>

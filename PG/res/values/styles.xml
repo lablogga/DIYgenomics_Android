@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style
+		name="ListItem"
+		parent="@android:style/TextAppearance.Large">
+		<item
+			name="android:textSize">18dip</item>
+	</style>
+	<style
+		name="DotText">
+		<item
+			name="android:layout_width">18dip</item>
+		<item
+			name="android:layout_height">18dip</item>
+		<item
+			name="android:gravity">center</item>
+		<item
+			name="android:textSize">10dip</item>
+		<item
+			name="android:textColor">@color/dot_text</item>
+		<item
+			name="android:textStyle">bold</item>
+	</style>
+	<style
+		name="CompanyName">
+		<item
+			name="android:layout_width">wrap_content</item>
+		<item
+			name="android:layout_height">12dip</item>
+		<item
+			name="android:layout_marginRight">4dip</item>	
+		<item
+			name="android:textSize">10dip</item>
+		<item
+			name="android:textStyle">bold</item>
+	</style>
+</resources>

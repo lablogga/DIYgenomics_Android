@@ -1,16 +1,16 @@
 package com.melanieswan.pg.utils;
 
 import java.util.Comparator;
-import com.melanieswan.pg.ConditionVariantTableRow;
+import com.melanieswan.pg.MappingItem;
 import com.melanieswan.pg.Variant;
 
 
 public class ConditionVariantTableRowComparator implements
-		Comparator<ConditionVariantTableRow> {
+		Comparator<MappingItem> {
 
 	@Override
-	public int compare(ConditionVariantTableRow row1,
-					   ConditionVariantTableRow row2) 
+	public int compare(MappingItem row1,
+					   MappingItem row2) 
 	{
 
 		Variant variant1 = row1.getVariant();

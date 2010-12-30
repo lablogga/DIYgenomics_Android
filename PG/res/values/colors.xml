@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="dot_text">#ffffffff</color>
+	<color name="category_bg">#ffc7dbf0</color>
+	<color name="list_item_bg">#ffffffff</color>
+	<color name="list_item_bg2">#fff8f8f8</color>
+	<color name="list_item_selected_bg">#ffffefa0</color>
+	<!--  steelblue1 -->
+	<color name="comp1">#ff63b8ff</color>
+	<!--  sandy brown -->
+	<color name="comp2">#fff4a460</color>
+	<!--  aquamarine2 -->
+	<color name="comp3">#ff76eec6</color>
+	<!--  plum3 -->
+	<color name="comp4">#ffcd96cd</color>
+	<!--  khaki -->
+	<color name="comp5">#fff0e68c</color>
+	<!--  IndianRed2 -->
+	<color name="comp6">#ffee6363</color>
+	<color name="normal">#ff00ff00</color>
+	<color name="mutated">#ffff0000</color>
+	<color name="progress">#ffb0bfcf</color>
+	<color name="title_bg">#ffc7dbf0</color>
+</resources>

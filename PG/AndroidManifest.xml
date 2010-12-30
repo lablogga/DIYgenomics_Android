@@ -1,24 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.melanieswan.pg"
-      android:versionCode="1"
-      android:versionName="1.0">
-    <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".Main"
-                  android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-    	<activity android:name="ConditionTableActivity">
-    	</activity>
-	<activity android:name="StudiesActivity"></activity>
-</application>
-    <uses-sdk android:minSdkVersion="3" 
-    android:targetSdkVersion="4"
-    />
-
-<uses-permission android:name="android.permission.MODIFY_PHONE_STATE"></uses-permission>
-</manifest> 
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.melanieswan.pg"
+	android:versionCode="1"
+	android:versionName="1.0">
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/app_name"
+		android:theme="@android:style/Theme.Light.NoTitleBar">
+		<activity
+			android:name=".Main"
+			android:label="@string/app_name"
+			android:noHistory="true">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="CategoriesActivity" />
+		<activity
+			android:name="CategoryItemActivity" />
+		<activity
+			android:name="StudiesActivity" />
+		<activity
+			android:name="ImportActivity"
+			android:noHistory="true" >
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<!-- data android:scheme="file" /> -->
+				<data android:mimeType="application/zip" />
+				<data android:pathPattern=".*\\.zip" />
+				<data android:host="*" />
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-sdk
+		android:minSdkVersion="3"
+		android:targetSdkVersion="4" />
+	<uses-permission
+		android:name="android.permission.MODIFY_PHONE_STATE"></uses-permission>
+	<uses-permission
+		android:name="android.permission.INTERNET"></uses-permission>
+</manifest>

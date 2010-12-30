@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-
-<ListView 
-	android:id="@+id/main_conditions" 
-	android:layout_height="fill_parent" 
-	android:layout_width="fill_parent" 
-	android:background="#ffffffff" 
-	android:cacheColorHint="#ffffffff">
-	</ListView>
-	
-</LinearLayout>
+    android:layout_height="fill_parent" >
+    <ImageView
+    	android:id="@+id/logo"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="40dip"
+    	android:layout_gravity="top"
+    	android:src="@drawable/logo_big"
+    	android:scaleType="centerInside" />
+   	<ProgressBar
+   		android:id="@+id/progress"
+   		android:layout_width="120dip"
+   		android:layout_height="120dip"
+   		android:layout_gravity="bottom|center_horizontal"
+   		android:layout_marginBottom="40dip"
+   		android:indeterminate="true"
+   		android:indeterminateOnly="true" />
+</FrameLayout>

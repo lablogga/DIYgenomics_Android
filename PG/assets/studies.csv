@@ -1,253 +1,892 @@
-Key,PMID,Citation
-1,1106425,Cooke et al. (1975) Arthritis Rheum 18(6) 541-51.
-2,1397696,Misler et al. (1992) Diabetes 41(10) 1221-8.
-3,2649325,Karasik et al. (1989) Diabetes Care 12(2) 135-8.
-4,4599390,Zvaifler (1973) Adv Immunol 16(0) 265-336.
-5,8001151,Tontonoz et al. (1994) Cell 79(7) 1147-56.
-6,9054944,Vafiadis et al. (1997) Nat Genet 15(3) 289-292.
-7,9054945,Pugliese al. (1997) Nat Genet 15(3) 293-297.
-8,9271584,You-Ten et al. (1997) J Exp Med 22(16) 5662-8.
-9,9343467,Farrer LA et al. JAMA. 1997 Oct 22-29 278(16) 1349-56
-10,9668163,Haines et al. (1998) Hum Mol Genet 7(8) 1229-34.
-11,9771706,Inoue et al. (1998) Nat Genet 20(2) 143-8.
-12,9806549,Deeb et al. (1998) Nat Genet 20(3) 284-7.
-13,9806829,Hashida et al. (1998). Genomics 54(1) 50-8.
-14,9874568,Cloutier et al. (1999) J Exp Med 189(1) 111-21.
-15,9891060,Nielsen et al. (1999) Mol Cell Biol 19(2) 1262-70.
-16,10463402,Ringvold (1999) Acta Ophthalmol Scand 77(4) 371-5.
-17,10643712,Schellekens et al. (2000) Arthritis Rheum 43(1) 155-63.
-18,10695722,Bielekova et al. (1999) J Neuroimmunol 100(1-2) 115-23.
-19,10754334,Wang et al. (2000) J Immunol 164(8) 4340-7.
-20,10777704,Hara et al. (2000) Biochem Biophys Res Commun 271(1) 212-6.
-21,10799879,Li et al. (2000) J Immunol 164(10) 5199-206.
-22,10814502,Ouimet et al. (2000) Biochem Biophys Res Commun 271(3) 565-70.
-23,10973253,Altshuler et al. (2000) Nat Genet 26(1) 76-80.
-24,11114373,Takai et al. (2000) Immunity 13(5) 599-609.
-25,11250709,Dickson et al. (2000) Breast Cancer Res 2(3) 191-6.
-26,11289058,Mori et al. (2001) Diabetes 50(4) 891-4.
-27,11340155,Collins et al. (2001) Mol Cell Biol 21(11) 3609-15.
-28,11385576,Hugot et al. (2001) Nature 411(6837) 599-603.
-29,11385577,Ogura et al. (2001) Nature 411(6837) 603-6.
-30,11596673,Ek et al. (2001) Diabetologia 44(9) 1170-6.
-31,11607847,Bradley and Pober (2001) Oncogene 20(44) 6482-91.
-32,11672546,Tsitsikov et al. (2001) Immunity 15(4) 647-57.
-33,11793026,Ukkola et al. (2001) Diabetologia 44(12) 2231-6.
-34,11875755,Lesage et al. (2002) Am J Hum Genet 70(4) 845-57.
-35,11909529,Simoncic et al. (2007) Curr Biol 12(6) 446-53.
-36,12020527,Hampe et al. (2002) Lancet 359(9318) 1661-5.
-37,12138178,ten Hoeve et al. (2002) Mol Cell Biol 22(16) 5662-8.
-38,12429870,De Bree et al. (2002) Pharmacol Rev 54(4) 599-618.
-39,12511585,Minna (2003) J Clin Invest 111(1) 31-3.
-40,12540638,Nielsen et al. (2003) Diabetes 52(2) 573-7.
-41,12557126,Barcellos et al. (2003) Am J Hum Genet 72(3) 710-6.
-42,12724780,Ueda et al. (2003) Nature 423(6939) 506-511.
-43,12833157,Suzuki et al. (2003) Nat Genet 34(4) 395-402.
-44,12849268,Kira (2003) Lancet Neurol 2(2) 117-27.
-45,14669136,Oksenberg et al. (2004) Dev Biol 290(1) 44-56.
-46,14729617,Trombino et al (2004) Cancer Res 64(1) 135-45.
-47,14736744,Bort et al. (2004) Development 131(4) 797-806.
-48,15004560,Bottini et al. (2004) Nat Genet 36(4) 337-8.
-49,15208781,Begovich AB et al. Am J Hum Genet. 2004 Aug 75(2) 330-7. 
-50,15331542,Chimienti et al. (2004) Diabetes 53(9) 2330-7.
-51,15504986,Smyth et al. (2004) Diabetes 53(11) 3020-3.
-52,15641066,Orozco et al. (2005) Arthritis Rheum 52(1) 219-24.
-53,15641088,Steer et al. (2005) Arthritis Rheum 52(1) 358-60.
-54,15657618,Hunt KA et al. Eur J Human Genet (2005) 13 440-444.
-55,15674368,Lee et al. (2005) Genes Immun 6(2) 129-33.
-56,15674389,Zhang et al. (2005) Genes Immun 6(2) 145-52.
-57,15893541,Ho et al (2005) Toxicol Appl Pharmacol 205(2) 133-48.
-58,15934099,Hinks et al. (2005) Arthritis Rheum 52(6) 1694-9.
-59,15986352,Simkins et al. (2005) Arthritis Rheum 52(7) 2222-5.
-60,15986374,van Oene et al. (2005) Arthritis Rheum 52(7) 1993-8.
-61,16080115,Jakobsdottir J et al. Am J Hum Genet. 2005 September 77(3) 389-407. 
-62,16108843,Moon et al. (2005) Diabet Med 22(9) 1161-6.
-63,16200584,Ikari et al. (2005) Arthritis Rheum 52(10) 3054-7.
-64,16231285,Cox et al. (2005) Eur J Immunol 35(11) 3332-42.
-65,16320083,Shaat et al. (2005) Diabetologia 48(12) 2544-51.
-66,16364283,Bort et al. (2006) Dev Biol 290(1) 44-56.
-67,16380915,Plenge et al. (2005) Am J Hum Genet 77(6) 1044-60.
-68,16385500,Kang et al. (2006) Arthritis Rheum 54(1) 90-6.
-69,16415884,Grant et al. (2006) Nat Genet 38(3) 320-3.
-70,16443426,Heald et al. (2006) Am J Med 119(2) 167.e9-15.
-71,16518403,Gold B et al. Nat Genet. 2006 Apr 38(4) 458-62.
-72,16571599,Yamada et al. (2006) Hum Mol Genet 15(10) 1600-9.
-73,16635271,Pierer et al. (2006) Arthritis Res Ther 8(3) R75.
-74,16636340,Smid et al. (2006) J Clin Oncol 24(15) 2261-7.
-75,16682969,Amundadottir et al. (2006) Nat Genet 38(6) 652-8.
-76,16699517,Smyth et al. (2006) Nat Genet 38(6) 17-9.
-77,16760194,Lee YH et al. Rheumatology (Oxford). 2007 Jan 46(1) 49-56.
-78,16787980,Martin et al. (2006) J Clin Endocrinol Metab 91(9) 3287-95.
-79,16870812,Correale et al. (2006) Neurology 67(4) 652-9.
-80,16887799,Ubeda et al. (2006) J Biol Chem 281(39) 28858-64.
-81,16888103,Singh et al. (2006) Science 313(5792) 1438-41.
-82,16905561,Barcellos et al. (2006) Hum Mol Genet 15(18) 2813-24.
-83,16936732,Maller J et al. Nat Genet. 2006 Sep 38(9) 1055-9. 
-84,16945910,Freedman et al. (2006) Proc Natl Acad Sci U S A 103(38) 14068-73.
-85,16984975,Chimienti et al. (2006) J Cell Sci 119(Pt 20) 4199-206.
-86,17000705,Conley et al. (2006) Hum Mol Genet 15(21) 3206-18.
-87,17003358,Saxena et al. (2006) Diabetes 55(10) 2890-5.
-88,17055429,Kim and Sharpless (2006) Cell 127(2) 265-75.
-89,17068223,Duerr RH et al. Science. 2006 Dec 1 314(5804) 1461-3. 
-90,17079491,Johnson et al. (2006) Proc Natl Acad Sci U S A 103(46) 17456-61.
-91,17130514,Munoz et al. (2006) Diabetes 55(12) 3630-4.
-92,17133345,Moffa and Ethier (2007) J Cell Physiol 210(3) 720-31.
-93,17170052,Hinks et al. (2007) Ann Rheum Dis 66(5) 683-6.
-94,17192720,Marlowe et al. (2006) Neurodegener Dis 3(6) 320-6.
-95,17200669,Hampe J et al. Nat Genet. 2007 Feb 39(2) 207-11. 
-96,17206141,Helgason et al. (2007) Nat Genet 39(2) 218-225.
-97,17213842,Silverberg MS et al. Eur J Hum Genet. 2007 Mar 15(3) 328-35.
-98,17236132,Cargill M et al. Am J Hum Genet. 2007 Feb 80(2) 273-90.
-99,17237219,Michou et al. (2007) Proc Natl Acad Sci U S A 104(5) 1649-54.
-100,17245589,Horikoshi et al. (2007) Diabetologia Jan 24.
-101,17293864,Cox A et al. Nat Genet. 2007 Mar 39(3) 352-8.
-102,17293876,Sladek et al. (2007) Nature 445(7130) 881-5.
-103,17337463,van Limbergen et al. (2007) Gut 56(8) 1173-4.
-104,17339482,Laine et al. (2007) J Immunol 178(6) 3831-6.
-105,17340123,Hayashi et al. (2007) Diabetologia 50(5) 980-4.
-106,17342473,Shaat et al. (2007) Diabetologia 50(5) 972-9.
-107,17372260,Severi et al. (2007) Cancer Epidemiol Biomarkers Prev 16(3) 610-2.
-108,17399790,Skerka et al. (2007) Mol Immunol 44(13) 3398-406.
-109,17401363,Yeager M et al. Nat Genet. 2007 May 39(5) 645-9. 
-110,17401364,Haiman et al. (2007) Nat Genet 39(5) 638-44.
-111,17401366,Gudmundsson J et al. Nat Genet. 2007 May 39(5) 631-7. 
-112,17406641,Graham RR et al. Eur J Hum Genet. 2007 Aug 15(8) 823-30. 
-113,17409399,Wang et al. (2007) Cancer Res 67(7) 2944-50.
-114,17409400,Schumacher et al. (2007) Cancer Res 67(7) 2951-2956.
-115,17412832,Graham RR et al. Proc Natl Acad Sci U S A. 2007 April 17  104(16)  6758-6763.
-116,17416775,Suuriniemi et al. (2007) Cancer Epidemiol Biomarkers Prev 16(4) 809-14.
-117,17434869,Frayling TM et al. Science. 2007 May 11 316(5826) 889-94.
-118,17435756,Rioux JD et al. Nat Genet. 2007 May 39(5) 596-604.
-119,17447842,Libioulle et al. (2007) PLoS Genet 3(4) e58.
-120,17457368,Pascoe L et al. Eur J Hum Genet. 2007 Aug 15(8) 864-71. 
-121,17460686,Witte et al. (2007) Nat Genet 39(5) 579-80.
-122,17460697,Steinthorsdottir V et al. Nat Genet. 2007 Jun 39(6) 770-5.
-123,17463246,Saxena et al. (2007) Science 316(5829) 1331-6.
-124,17463248,Scott et al. (2007) Science 316(5829) 1341-5.
-125,17463249,Zeggini E et al. Science. 2007 Jun 1 316(5829) 1336-41.
-126,17474819,Coon KD et al. J Clin Psychiatry. 2007 Apr 68(4) 613-8.
-127,17478679,Helgadottir A et al. Science. 2007 Jun 8 316(5830) 1491-3. 
-128,17478681,McPherson et al. (2007) Science 316(5830) 1488-91.
-129,17496892,Dina et al. (2007) Nat Genet 39(6) 724-6.
-130,17510389,Lam et al (2007) Cancer Res 67(10) 4638-47.
-131,17529967,Easton DF et al. Nature. 2007 Jun 28 447(7148).
-132,17529973,Hunter et al. (2007) Nat Genet 39(7) 870-4.
-133,17529974,Stacey SN et al. Nat Genet. 2007 Jul 39(7) 865-9.
-134,17534663,Rodriguez et al. (2007) Hum Genet. 2007 Aug 122(1) 1-21.
-135,17548652,Sheibanie et al. (2007) J Immunol 178(12) 8138-47.
-136,17554260,Todd JA et al. Nat Genet. 2007 Jul 39(7) 857-64. Epub 2007 Jun 6.
-137,17554261,Parkes M et al. Nat Genet. 2007 Jul 39(7) 830-2.
-138,17554300,Wellcome Trust Case Control Consortium. Nature. 2007 Jun 7 447(7145) 661-78.
-139,17558408,van Heel DA et al. Nat Genet. 2007 Jul 39(7) 827-9. 
-140,17568788,Ferreiro-Neira (2007). Genes Immun 8(5) 429-38.
-141,17576744,Spencer et al. (2007) Hum Mol Genet 16(16) 1986-92.
-142,17601994,Sale et al. (2007) Diabetes. 2007 Oct 56(10) 2638-42.
-143,17603472,Gudbjartsson DF et al. Nature. 2007 Jul 19 448(7151) 353-7. 
-144,17603484,Sandhu MS et al. Nat Genet. 2007 Aug 39(8) 951-3.
-145,17603485,Gudmundsson J et al. Nat Genet. 2007 Aug 39(8) 977-83. 
-146,17613544,Xu et al. (2007) Hum Mol Genet 16(SPEC) R14-20.
-147,17618282,Haiman et al. (2007) Nat Genet 39(8) 954-6.
-148,17618283,Zanke et al. (2007)  Nat Genet 39(8) 989-994.
-149,17618284,Tomlinson IP et al. Nat Genet. 2007 Aug 39(8) 984-8. 
-150,17632545,Hakonarson et al. (2007) Nature 448(7153) 591-4.
-151,17634447,Stefansson H et al. N Engl J Med. 2007 Aug 16 357(7) 639-47. 
-152,17634448,Yates JR et al. N Engl J Med. 2007 Aug 9 357(6) 553-61. 
-153,17634449,Samani NJ et al. N Engl J Med. 2007 Aug 2 357(5) 443-53. 
-154,17637780,Winkelmann J et al. Nat Genet. 2007 Aug 39(8) 1000-6. 
-155,17658951,Scuteri et al. (2007) PLoS Genet 3(7) e115.
-156,17660530,Hafler DA et al. N Engl J Med. 2007 Aug 30 357(9) 851-62.
-157,17660816,Lundmark et al. (2007) Nat Genet 39(9) 1108-13.
-158,17660817,Gregory SG et al. Nat Genet. 2007 Sep 39(9) 1083-91. 
-159,17668382,Salonen JT et al. Am J Hum Genet. 2007 August  81(2) 338-345. 
-160,17684544,Franke A et al. PLoS ONE. 2007 Aug 8 2(1) e691.
-161,17690259,Thorleifsson et al. (2007) Science 317(5843) 1397-400.
-162,17699846,Zhang et al. (2007) Clin Cancer Res 13(16) 4686-94.
-163,17767156,Maller JB et al. Nat Genet. 2007 Oct 39(10) 1200-1.
-164,17786191,Glas et al. (2007) PLoS ONE 2(9) e819.
-165,17804836,Plenge RM et al. N Engl J Med. 2007 Sep 20 357(12) 1199-209. 
-166,17804842,Remmers EF et al. N Engl J Med. 2007 Sep 6 357(10) 977-86.
-167,17823772,Sakamoto et al. (2007) J Hum Genet 52(10) 781-93.
-168,17845076,Ramagopalan SV et al. PLoS Genet. 2007 September 3(9) e150. 
-169,17880261,Kurreeman et al. (2007) PLoS Med 4(9) e278.
-170,17884985,Kanda et al. (2007) Proc Natl Acad Sci U S A 104(41) 16227-32.
-171,17888129,Weedon M N et al. Diabet Med. 2007 Oct 24(10) 1062-6.
-172,17925536,Zheng et al. (2007) J Natl Cancer Inst 99(20) 1525-33.
-173,17934461,Broderick P et al. Nat Genet. 2007 Nov 39(11) 1315-7. 
-174,17978284,Robbins et al. (2007) Genome Res [Epub ahead of print].
-175,17982455,Thomson et al. (2007) Nat Genet 39(12) 1431-3.
-176,17982456,Plenge RM et al. Nat Genet. 2007 Dec 39(12) 1477-82. 
-177,17991826,Gerken et al. (2007) Science 318(5855) 1469-72.
-178,17999365,Zhernakova A et al. Am J Hum Genet. 2007 Dec 81(6) 1284-8.
-179,18040659,Franks et al. (2007) Diabetologia Nov 27
-180,18047540,Weersma et al. (2008). Am. J. Gastroenterol. 103(3) 621-7.
-181,18048838,Wahlen et al. (2007) J Lipid Res Nov 29
-182,18063667,Sigurdsson et al. (2008). Hum Mol Genet 17(6) 872-81.
-183,18075513,Chang M et al. Genes Immun. 2008 Mar 9(2) 176-81. 
-184,18084292,Jaeger E et al. Nat Genet. 2008 Jan 40(1) 26-8. 
-185,18087673,Takata et al. (2008) J Hum Genet 53(2) 163-73.
-186,18097733,Miyake et al. (2008) J Hum Genet 53(2) 174-80.
-187,18162508,Omori et al. (2008) Diabetes 57(3) 791-5.
-188,18199855,Zheng et al. (2008) N Engl J Med Jan 16 
-189,18204098,Hom G et al. N Engl J Med. 2008 Feb 28 358(9) 900-9.
-190,18204446,SLEGEN et al. Nat Genet. 2008 Feb 40(2) 204-10.
-191,18204447,Kozyrev SV et al. Nat Genet. 2008 Feb 40(2) 211-6. 
-192,18204448,Nath et al. (2008). Nat Genet 40(2) 152-4.
-193,18219280,Nair et al. (2008). J Invest Dermatol 128(7) 1653-61.
-194,18231127,Cheng et al. (2008) Eur J Hum Genet Jan 30 
-195,18264096,Thomas G et al. Nat Genet. 2008 Mar 40(3) 310-5.
-196,18264098,Gudmundsson J et al. Nat Genet. 2008 Mar 40(3) 281-3. 
-197,18311140,Hunt KA et al. Nat Genet. 2008 Apr 40(4) 395-402.
-198,18334928,Challa et al. (2008) Mol Vis. 14 146-9.
-199,18369459,Liu Y et al. PLoS Genet. 2008 Mar 28 4(3) e1000041.
-200,18372901,Tenesa A et al. Nat Genet. 2008 May 40(5) 631-7. 
-201,18372903,Zeggini E et al. Nat Genet. 2008 May 40(5) 638-45.
-202,18372905,Tomlinson IP et al. Nat Genet. 2008 May 40(5) 623-30. 
-203,18385063,Pasutto et al. (2008) Invest. Ophthalmol. Vis. Sci. 49(4) 1459-63.
-204,18385676,Amos CI et al. Nat Genet. 2008 May 40(5) 616-22.
-205,18385738,Hung et al (2008) Nature 452(7187) 633-7.
-206,18385739,Thorgeirsson TE et al. Nature. 2008 Apr 3 452(7187) 638-42.
-207,18385788,Aragon-Martin et al. (2008) Mol Vis. 14 533-41.
-208,18418394,Adamovic et al. (2008) Genes Immun. 9(4) 364-7.
-209,18438405,Franke A et al. Nat Genet. 2008 Jun 40(6) 713-5.
-210,18438406,Fisher et al. (2008). Nat. Genet. 40(6) 710-2.
-211,18438407,Stacey SN et al. Nat Genet. 2008 Jun 40(6) 703-6.
-212,18450598,Ozaki et al. (2008) Invest. Ophthalmol. Vis. Sci. 49(9) 3976-80.
-213,18469204,Ng et al. (2008) Diabetes 57(8) 2226-33
-214,18587394,Barrett JC et al. Nat Genet. 2008 Aug 40(8) 955-62.
-215,18604207,Benzinou M et al. Nat Genet. 2008 Aug 40(8) 943-5.
-216,18647951,Concannon P et al. Diabetes. 2008 Oct 57(10) 2858-61.
-217,18660810,Schormair B et al. Nat Genet. 2008 Aug 40(8) 946-8. 
-218,18708398,Kote-Jarai Z et al. Cancer Epid Biomarkers Prev. 2008 Aug 17(8) 2052-61.
-219,18711366,Unoki H et al. Nat Genet. 2008 Sep 40(9) 1098-102. 
-220,18711367,Yasuda K et al. Nature Genetics 2008 Sept  40 1092-1097.
-221,18724369,McCarroll et al (2008) Nat Genet 40(9) 1107-1112.
-222,18753146,Pittman et al. (2008)  Hum Mol Genet 17  3720-3727.
-223,18794853,Raychaudhuri et al. (2008) Nat Genet 40(10) 1216-23.
-224,18794857,Barton et al. (2008) Nat Genet 40(10) 1156-9.
-225,18836448,Franke A et al. Nat Genet. 2008 Nov 40(11) 1319-23.
-226,18958304,Tanito et al. (2008) Mol Vis. 14 1898-905.
-227,18978792,Cooper JD et al. Nat Genet. 2008 Dec 40(12) 1399-401.
-228,19011631,Houlston RS et al. Nat Genet. 2008 Dec 40(12) 1426-35. 
-229,19060907,Prokopenko I et al. Nat Genet. 2009 Jan 41(1) 77-81.
-230,19079170,Goyette er al. (2008) Mucosal Immunology 1 131-138.
-231,19079260,Thorleifsson G et al. Nat Genet. 2009 Jan 41(1) 18-24.
-232,19122664,Silverberg MS et al. Nat Genet. 2009 Feb 41(2) 216-20.
-233,19141561,Kaab et al. (2009). Eur. Heart J. 30(7) 813-9.
-234,19151717,Rafnar T et al. Nat Genet. 2009 Feb 41(2) 221-7. 
-235,19165918,Graham RR et al. Nat Genet. 2008 Sep 40(9) 1059-61.
-236,19169253,de Cid R et al. Nat Genet. 2009 Feb 41(2) 211-5.
-237,19169254,Nair RP et al. Nat Genet. 2009 Feb 41(2) 199-204.
-238,19198609,Kathiresan S et al. Nat Genet. 2009 Mar 41(3) 334-41. 
-239,19198610,Gudbjartsson DF et al. Nat Genet. 2009 Feb 8.
-240,19198612,Erdmann J et al. Nat Genet. 2009 Mar 41(3) 280-2. 
-241,19330027,Ahmed S et al. Nat Genet. 2009 Mar 41(3) 324-8.
-242,19330030,Thomas G et al. Nat Genet. 2009 Mar 29.
-243,19430480,Barrett JC et al. Nat Genet. 2009 May 10
-244,19597491,Gudbjartsson DF et al. Nat Genet. 2009 Jul 13.
-245,19734902,Harold D et al. Nat Genet. 2009 Oct 41(10) 1088-93.
-246,19767752,Al Olama AA et al. Nat Genet. 2009 Sep 20.
-247,19767753,Eeles RA et al. Nat Genet. 2009 Sep 20.
-248,19767754,Gudmundsson J et al. Nat Genet. 2009 Sep 20.
-249,19838195,Gateva V et al. Nat Genet. 2009 Nov 41(11) 1228-33.
-250,20062063,Holm H et al. Nat Genet. 2010 Feb 42(2) 117-22.
-251,20081857,Saxena R et al. Nat Genet. 2010 Jan 17.
-252,20081858,Dupuis J et al. Nat Genet. 2010 Jan 17.
+1,1106425,Cooke TD et al; Arthritis Rheum; 1975 Nov-Dec; 18(6):541-51.
+2,1397696,Misler S et al; Diabetes; 1992 Oct; 41(10):1221-8.
+3,2649325,Karasik A et al; Diabetes Care; 1989 Feb; 12(2):135-8.
+4,4599390,Zvaifler NJ et al; Adv Immunol; 1973 16(0):265-336.
+5,8001151,Tontonoz P et al; Cell; 1994 Dec30; 79(7):1147-56.
+6,9054944,Vafiadis P et al; Nat Genet; 1997 Mar; 15(3):289-92.
+7,9054945,Pugliese A et al; Nat Genet; 1997 Mar; 15(3):293-7.
+8,9271584,You-Ten KE et al; J Exp Med; 1997 Aug29; 186(5):683-93.
+9,9343467,Farrer LA et al; JAMA; 1997 Oct 22-29; 278(16):1349-56.
+10,9668163,Haines JL et al; Hum Mol Genet; 1998 Aug; 7(8):1229-34.
+11,9771706,Inoue H et al; Nat Genet; 1998 Oct; 20(2):143-8.
+12,9806549,Deeb SS et al; Nat Genet; 1998 Nov; 20(3):284-7.
+13,9806829,Hashida H et al; Genomics; 1998 Nov 15; 54(1):50-8.
+14,9874568,Cloutier JF et al; J Exp Med; 1999 Jan 4;189(1):111-21.
+15,9891060,Nielsen J et al; Mol Cell Biol; 1999 Feb;19(2):1262-70.
+16,10463402,Ringvold A et al; Acta Ophthalmol Scand; 1999 Aug; 77(4):371-5.
+17,10643712,Schellekens GA et al; Arthritis Rheum; 2000Jan;43(1):155-63.
+18,10695722,Bielekova B et al; J Neuroimmunol; 1999 Dec;100(1-2):115-23.
+19,10754334,Wang Y et al; J Immunol; 2000 Apr 15;164(8):4340-7.
+20,10777704,Hara K et al; Biochem Biophys Res Commun; 2000 Apr 29;271(1):212-6.
+21,10799879,Li Y et al; J Immunol; 2000 May15;164(10):5199-206.
+22,10814502,Ouimet T et al; Biochem Biophys Res Commun; 2000 May 19;271(3):565-70.
+23,10973253,Altshuler D et al; Nat Genet; 2000 Sep;26(1):76-80.
+24,11114373,Takaki S et al; Immunity; 2000 Nov;13(5):599-609.
+25,11250709,Dickson C et al; Breast Cancer Res; 2000 2(3):191-6.
+26,11289058,Mori H et al; Diabetes; 2001 Apr;50(4):891-4.
+27,11340155,Collins T et al; Mol Cell Biol; 2001 Jun;21(11):3609-15.
+28,11385576,Hugot JP et al; Nature; 2001 May 31;411(6837):599-603.
+29,11385577,Ogura Y et al; Nature; 2001 May 31;411(6837):603-6.
+30,11596673,Ek J et al; Diabetologia; 2001 Sep;44(9):1170-6.
+31,11607847,Bradley JR et al; Oncogene; 2001 Oct 1;20(44):6482-91.
+32,11672546,Tsitsikov EN et al; Immunity; 2001 Oct;15(4):647-57.
+33,11793026,Ukkola O et al; Diabetologia; 2001 Dec;44(12):2231-6.
+34,11875755,Lesage S et al; Am J Hum Genet; 2002 Apr;70(4):845-57.
+35,11909529,Simoncic PD et al; Curr Biol; 2002 Mar 19;12(6):446-53.
+36,12020527,Hampe J et al; Lancet; 2002 May 11;359(9318):1661-5.
+37,12138178,ten Hoeve J et al; Mol Cell Biol; 2002 Aug;22(16):5662-8.
+38,12429870,De Bree A et al; Pharmacol Rev; 2002 Dec;54(4):599-618.
+39,12511585,Minna JD et al; J ClinInvest; 2003 Jan;111(1):31-3.
+40,12540638,Nielsen EM et al; Diabetes; 2003 Feb;52(2):573-7.
+41,12557126,Barcellos LF et al; Am J Hum Genet; 2003 Mar;72(3):710-6.
+42,12724780,Ueda H et al; Nature; 2003 May 29;423(6939):506-11.
+43,12833157,Suzuki A et al; Nat Genet; 2003 Aug;34(4):395-402.
+44,12849268,Kira J et al; Lancet Neurol; 2003 Feb;2(2):117-27.
+45,14669136,Oksenberg JR et al; Am J Hum Genet; 2004 Jan;74(1):160-7.
+46,14729617,Trombino S et al; Cancer Res; 2004 Jan 1;64(1):135-45.
+47,14736744,Bort R et al; Development; 2004 Feb;131(4):797-806.
+48,15004560,Bottini N et al; Nat Genet; 2004 Apr;36(4):337-8.
+49,15208781,Begovich AB et al; Am J Hum Genet; 2004 Aug;75(2):330-7.
+50,15331542,Chimienti F et al; Diabetes; 2004 Sep;53(9):2330-7.
+51,15504986,Smyth D et al; Diabetes; 2004 Nov;53(11):3020-3.
+52,15641066,Orozco G et al; Arthritis Rheum; 2005 Jan;52(1):219-24.
+53,15641088,Steer S et al; Arthritis Rheum; 2005 Jan;52(1):358-60.
+54,15657618,Hunt KA et al; Eur J Hum Genet; 2005 Apr;13(4):440-4.
+55,15674368,Lee AT et al; Genes Immun; 2005 Mar;6(2):129-33.
+56,15674389,Zhang Z et al; Genes Immun; 2005 Mar;6(2):145-52.
+57,15893541,Ho YS et al; Toxicol Appl Pharmacol; 2005 Jun 1;205(2):133-48.
+58,15934099,Hinks A et al; Arthritis Rheum; 2005 Jun;52(6):1694-9.
+59,15986352,Simkins HM et al; Arthritis Rheum; 2005 Jul;52(7):2222-5.
+60,15986374,van Oene M et al; Arthritis Rheum; 2005 Jul;52(7):1993-8.
+61,16080115,Jakobsdottir J et al; Am J Hum Genet; 2005 Sep;77(3):389-407.
+62,16108843,Moon MK et al; Diabet Med; 2005 Sep;22(9):1161-6.
+63,16200584,Ikari K et al; Arthritis Rheum; 2005 Oct;52(10):3054-7.
+64,16231285,Cox AL et al; Eur J Immunol; 2005 Nov;35(11):3332-42.
+65,16320083,Shaat N et al; Diabetologia; 2005 Dec;48(12):2544-51.
+66,16364283,Bort R et al; Dev Biol; 2006 Feb 1;290(1):44-56.
+67,16380915,Plenge RM et al; Am J Hum Genet; 2005 Dec;77(6):1044-60.
+68,16385500,Kang CP et al; Arthritis Rheum; 2006 Jan;54(1):90-6.
+69,16415884,Grant SF et al; Nat Genet; 2006 Mar;38(3):320-3.
+70,16443426,Heald AH et al; Am J Med; 2006 Feb;119(2):167.
+71,16518403,Gold B et al; Nat Genet; 2006 Apr;38(4):458-62.
+72,16571599,Yamada T et al; Hum Mol Genet; 2006 May 15;15(10):1600-9.
+73,16635271,Pierer M et al; Arthritis Res Ther; 2006 8(3):R75.
+74,16636340,Smid M et al; J Clin Oncol; 2006 May 20;24(15):2261-7.
+75,16682969,Amundadottir LT et al; Nat Genet; 2006 Jun;38(6):652-8.
+76,16699517,Smyth D et al; Nat Genet; 2006 Jun;38(6):617-9.
+77,16760194,Lee YH et al; Rheumatology; 2007 Jan;46(1):49-56.
+78,16787980,Martin RM et al; J Clin Endocrinol Metab; 2006 Sep;91(9):3287-95.
+79,16870812,Correale J et al; Neurology; 2006 Aug 22;67(4):652-9.
+80,16887799,Ubeda M et al; J Biol Chem; 2006 Sep29;281(39):28858-64.
+81,16888103,Singh SB et al; Science; 2006 Sep 8;313(5792):1438-41.
+82,16905561,Barcellos LF et al; Hum Mol Genet; 2006 Sep 15;15(18):2813-24.
+83,16936732,Maller JB et al; Nat Genet; 2006 Sep;38(9):1055-9.
+84,16945910,Freedman ML et al; Proc Natl Acad Sci U S A; 2006 Sep 19;103(38):14068-73.
+85,16984975,Chimienti F et al; J Cell Sci; 2006 Oct 15;119(Pt 20):4199-206.
+86,17000705,Conley YP et al; Hum Mol Genet; 2006 Nov 1;15(21):3206-18.
+87,17003358,Saxena R et al; Diabetes; 2006 Oct;55(10):2890-5.
+88,17055429,Kim WY et al; Cell; 2006 Oct 20;127(2):265-75.
+89,17068223,Duerr RH et al; Science; 2006 Dec 1;314(5804):1461-3.
+90,17079491,Johnson PT et al; Proc Natl Acad Sci U S A; 2006 Nov 14;103(46):17456-61.
+91,17130514,Munoz J et al; Diabetes; 2006 Dec;55(12):3630-4.
+92,17133345,Moffa AB et al; J Cell Physiol; 2007 Mar;210(3):720-31.
+93,17170052,Hinks A et al; Ann Rheum Dis; 2007 May;66(5):683-6.
+94,17192720,Marlowe L et al; Neurodegener Dis; 2006 3(6):320-6.
+95,17200669,Hampe J et al; Nat Genet; 2007 Feb;39(2):207-11.
+96,17206141,Helgason A et al; Nat Genet; 2007 Feb;39(2):218-25.
+97,17213842,Silverberg MS et al; Eur J Hum Genet; 2007 Mar;15(3):328-35.
+98,17236132,Cargill M et al; Am J Hum Genet; 2007 Feb;80(2):273-90.
+99,17237219,Michou L et al; Proc Natl Acad Sci U S A; 2007 Jan 30;104(5):1649-54.
+100,17245589,Horikoshi M et al; Diabetologia; 2007 Apr;50(4):747-51.
+101,17293864,Cox A et al; Nat Genet; 2007 Mar;39(3):352-8.
+102,17293876,Sladek R et al; Nature; 2007 Feb 22;445(7130):881-5.
+103,17337463,Van Limbergen J et al; Gut; 2007 Aug;56(8):1173-4.
+104,17339482,Laine M et al; J Immunol; 2007 Mar 15;178(6):3831-6.
+105,17340123,Hayashi T et al; Diabetologia; 2007 May;50(5):980-4.
+106,17342473,Shaat N et al; Diabetologia; 2007 May;50(5):972-9.
+107,17372260,Severi G et al; Cancer Epidemiol Biomarkers Prev; 2007 Mar;16(3):610-2.
+108,17399790,Skerka C et al; Mol Immunol; 2007 Jul;44(13):3398-406.
+109,17401363,Yeager M et al; Nat Genet; 2007 May;39(5):645-9.
+110,17401364,Haiman CA et al; Nat Genet; 2007 May;39(5):638-44.
+111,17401366,Gudmundsson J et al; Nat Genet; 2007 May;39(5):631-7.
+112,17406641,Graham RR et al; Eur J Hum Genet; 2007 Aug;15(8):823-30.
+113,17409399,Wang L et al; Cancer Res; 2007 Apr1;67(7):2944-50.
+114,17409400,Schumacher FR et al; Cancer Res; 2007 Apr 1;67(7):2951-6.
+115,17412832,Graham RR et al; Proc Natl Acad Sci U S A; 2007 Apr 17;104(16):6758-63.
+116,17416775,Suuriniemi M et al; Cancer Epidemiol Biomarkers Prev; 2007 Apr;16(4):809-14.
+117,17434869,Frayling TM et al; Science; 2007 May 11;316(5826):889-94.
+118,17435756,Rioux JD et al; Nat Genet; 2007 May;39(5):596-604.
+119,17447842,Libioulle C et al; PLoS Genet; 2007 Apr 20;3(4):e58.
+120,17457368,Pascoe L et al; Eur J Hum Genet; 2007 Aug;15(8):864-71.
+121,17460686,Witte JS et al; Nat Genet; 2007 May;39(5):579-80.
+122,17460697,Steinthorsdottir V et al; Nat Genet; 2007 Jun;39(6):770-5.
+123,17463246,Diabetes Genetics Initiative of Broad Institute of Harvard and MIT et al; Science; 2007 Jun 1;316(5829):1331-6.
+124,17463248,Scott LJ et al; Science; 2007 Jun 1;316(5829):1341-5.
+125,17463249,Zeggini E et al; Science; 2007 Jun1;316(5829):1336-41.
+126,17474819,Coon KD et al; J Clin Psychiatry; 2007 Apr;68(4):613-8.
+127,17478679,Helgadottir A et al; Science; 2007 Jun 8;316(5830):1491-3.
+128,17478681,McPherson R et al; Science; 2007 Jun 8;316(5830):1488-91.
+129,17496892,Dina C et al; Nat Genet; 2007 Jun;39(6):724-6.
+130,17510389,Lam DC et al; Cancer Res; 2007 May15;67(10):4638-47.
+131,17529967,Easton DF et al; Nature; 2007 Jun28;447(7148):1087-93.
+132,17529973,Hunter DJ et al; Nat Genet; 2007 Jul;39(7):870-4.
+133,17529974,Stacey SN et al; Nat Genet; 2007 Jul;39(7):865-9.
+134,17534663,Rodriguez S et al; Hum Genet; 2007 Aug;122(1):1-21.
+135,17548652,Sheibanie AF et al; J Immunol; 2007 Jun15;178(12):8138-47.
+136,17554260,Todd JA et al; Nat Genet; 2007 Jul;39(7):857-64.
+137,17554261,Parkes M et al; Nat Genet; 2007 Jul;39(7):830-2.
+138,17554300,Wellcome Trust Case Control Consortium et al; Nature; 2007 Jun7;447(7145):661-78.
+139,17558408,van Heel DA et al; Nat Genet; 2007 Jul;39(7):827-9.
+140,17568788,Ferreiro-Neira I et al; Genes Immun; 2007 Jul;8(5):429-38.
+141,17576744,Spencer KL et al; Hum Mol Genet; 2007 Aug 15;16(16):1986-92.
+142,17601994,Sale MM et al; Diabetes; 2007 Oct;56(10):2638-42.
+143,17603472,Gudbjartsson DF et al; Nature; 2007 Jul 19;448(7151):353-7.
+144,17603484,Sandhu MS et al; Nat Genet; 2007 Aug;39(8):951-3.
+145,17603485,Gudmundsson J et al; Nat Genet; 2007 Aug;39(8):977-83.
+146,17613544,Xu Y et al; Hum Mol Genet; 2007 Apr 15;16 Spec No 1:R14-20.
+147,17618282,Haiman CA et al; Nat Genet; 2007 Aug;39(8):954-6.
+148,17618283,Zanke BW et al; Nat Genet; 2007 Aug;39(8):989-94.
+149,17618284,Tomlinson I et al; Nat Genet; 2007 Aug;39(8):984-8.
+150,17632545,Hakonarson H et al; Nature; 2007 Aug 2;448(7153):591-4.
+151,17634447,Stefansson H et al; N Engl J Med; 2007 Aug 16;357(7):639-47.
+152,17634448,Yates JR et al; N Engl J Med; 2007 Aug9;357(6):553-61.
+153,17634449,Samani NJ et al; N Engl J Med; 2007 Aug 2;357(5):443-53.
+154,17637780,Winkelmann J et al; Nat Genet; 2007 Aug;39(8):1000-6.
+155,17658951,Scuteri A et al; PLoS Genet; 2007 Jul;3(7):e115.
+156,17660530,International Multiple Sclerosis Genetics Consortium et al; N Engl J Med; 2007 Aug30;357(9):851-62.
+157,17660816,Lundmark F et al; Nat Genet; 2007 Sep;39(9):1108-13.
+158,17660817,Gregory SG et al; Nat Genet; 2007 Sep;39(9):1083-91.
+159,17668382,Salonen JT et al; Am J Hum Genet; 2007 Aug;81(2):338-45.
+160,17684544,Franke A et al; PLoS One; 2007 Aug 8;2(1):e691.
+161,17690259,Thorleifsson G et al; Science; 2007 Sep 7;317(5843):1397-400.
+162,17699846,Zhang Q et al; Clin Cancer Res; 2007 Aug 15;13(16):4686-94.
+163,17767156,Maller JB et al; Nat Genet; 2007 Oct;39(10):1200-1.
+164,17786191,Glas J et al; PLoS One; 2007 Sep 5;2(9):e819.
+165,17804836,Plenge RM et al; N Engl J Med; 2007 Sep 20;357(12):1199-209.
+166,17804842,Remmers EF et al; N Engl J Med; 2007 Sep 6;357(10):977-86.
+167,17823772,Sakamoto Y et al; J Hum Genet; 2007 52(10):781-93.
+168,17845076,Ramagopalan SV et al; PLoS Genet; 2007 Sep;3(9):1607-13.
+169,17880261,Kurreeman FA et al; PLoS Med; 2007 Sep;4(9):e278.
+170,17884985,Kanda A et al; Proc Natl Acad Sci U S A; 2007 Oct 9;104(41):16227-32.
+171,17888129,Weedon MN et al; Diabet Med; 2007 Oct;24(10):1062-6.
+172,17925536,Zheng SL et al; J Natl Cancer Inst; 2007 Oct17;99(20):1525-33.
+173,17934461,Broderick P et al; Nat Genet; 2007 Nov;39(11):1315-7.
+174,17978284,Robbins C et al; Genome Res; 2007 Dec;17(12):1717-22.
+175,17982455,Thomson W et al; Nat Genet; 2007 Dec;39(12):1431-3.
+176,17982456,Plenge RM et al; Nat Genet; 2007 Dec;39(12):1477-82.
+177,17991826,Gerken T et al; Science; 2007 Nov 30;318(5855):1469-72.
+178,17999365,Zhernakova A et al; Am J Hum Genet; 2007 Dec;81(6):1284-8.
+179,18040659,Franks PW et al; Diabetologia; 2008 Mar;51(3):458-63.
+180,18047540,Weersma RK et al; Am J Gastroenterol; 2008 Mar;103(3):621-7.
+181,18048838,Wahlen K et al; J Lipid Res; 2008 Mar;49(3):607-11.
+182,18063667,Sigurdsson S et al; Hum Mol Genet; 2008 Mar 15;17(6):872-81.
+183,18075513,Chang M et al; Genes Immun; 2008 Mar;9(2):176-81.
+184,18084292,Jaeger E et al; Nat Genet; 2008 Jan;40(1):26-8.
+185,18087673,Takata Y et al; J Hum Genet; 2008 53(2):163-73.
+186,18097733,Miyake K et al; J Hum Genet; 2008 53(2):174-80.
+187,18162508,Omori S et al; Diabetes; 2008 Mar;57(3):791-5.
+188,18199855,Zheng SL et al; N Engl J Med; 2008 Feb 28;358(9):910-9.
+189,18204098,Hom G et al; N Engl J Med; 2008 Feb 28;358(9):900-9.
+190,18204446,SLEGEN et al; Nat Genet; 2008 Feb;40(2):204-10.
+191,18204447,Kozyrev SV et al; Nat Genet; 2008 Feb;40(2):211-6.
+192,18204448,Nath SK et al; Nat Genet; 2008 Feb;40(2):152-4.
+193,18219280,Nair RP et al; J Invest Dermatol; 2008 Jul;128(7):1653-61.
+194,18231127,Cheng I et al; Eur J Hum Genet; 2008 Apr;16(4):496-505.
+195,18264096,Thomas G et al; Nat Genet; 2008 Mar;40(3):310-5.
+196,18264098,Gudmundsson J et al; Nat Genet; 2008 Mar;40(3):281-3.
+197,18311140,Hunt KA et al; Nat Genet; 2008 Apr;40(4):395-402.
+198,18334928,Challa P et al; Mol Vis; 2008 Jan 29;14:146-9.
+199,18369459,Liu Y et al; PLoS Genet; 2008 Mar 28;4(3):e1000041.
+200,18372901,Tenesa A et al; Nat Genet; 2008 May;40(5):631-7.
+201,18372903,Zeggini E et al; Nat Genet; 2008 May;40(5):638-45.
+202,18372905,Tomlinson IP et al; Nat Genet; 2008 May;40(5):623-30.
+203,18385063,Pasutto F et al; Invest Ophthalmol Vis Sci; 2008 Apr;49(4):1459-63.
+204,18385676,Amos CI et al; Nat Genet; 2008 May;40(5):616-22.
+205,18385738,Hung RJ et al; Nature; 2008 Apr3;452(7187):633-7.
+206,18385739,Thorgeirsson TE et al; Nature; 2008 Apr3;452(7187):638-42.
+207,18385788,Aragon-Martin JA et al; Mol Vis; 2008 Mar 17;14:533-41.
+208,18418394,Adamovic S et al; Genes Immun; 2008 Jun;9(4):364-7.
+209,18438405,Franke A et al; Nat Genet; 2008 Jun;40(6):713-5.
+210,18438406,Fisher SA et al; Nat Genet; 2008 Jun;40(6):710-2.
+211,18438407,Stacey SN et al; Nat Genet; 2008 Jun;40(6):703-6.
+212,18450598,Ozaki M et al; Invest Ophthalmol Vis Sci; 2008 Sep;49(9):3976-80.
+213,18469204,Ng MC et al; Diabetes; 2008 Aug;57(8):2226-33.
+214,18587394,Barrett JC et al; Nat Genet; 2008 Aug;40(8):955-62.
+215,18604207,Benzinou M et al; Nat Genet; 2008 Aug;40(8):943-5.
+216,18647951,Concannon P et al; Diabetes; 2008 Oct;57(10):2858-61.
+217,18660810,Schormair B et al; Nat Genet; 2008 Aug;40(8):946-8.
+218,18708398,Kote-Jarai Z et al; Cancer Epidemiol Biomarkers Prev; 2008 Aug;17(8):2052-61.
+219,18711366,Unoki H et al; Nat Genet; 2008 Sep;40(9):1098-102.
+220,18711367,Yasuda K et al; Nat Genet; 2008 Sep;40(9):1092-7.
+221,18724369,McCarroll SA et al; Nat Genet; 2008 Aug 24.
+222,18753146,Pittman AM et al; Hum Mol Genet; 2008 Dec1;17(23):3720-7.
+223,18794853,Raychaudhuri S et al; Nat Genet; 2008 Oct;40(10):1216-23.
+224,18794857,Barton A et al; Nat Genet; 2008 Oct;40(10):1156-9.
+225,18836448,Franke A et al; Nat Genet; 2008 Nov;40(11):1319-23.
+226,18958304,Tanito M et al; Mol Vis; 2008 14:1898-905.
+227,18978792,Cooper JD et al; Nat Genet; 2008 Dec;40(12):1399-401.
+228,19011631,Houlston RS et al; Nat Genet; 2008 Dec;40(12):1426-35.
+229,19060907,Prokopenko I et al; Nat Genet; 2009 Jan;41(1):77-81.
+230,19079170,Goyette P et al; Mucosal Immunol; 2008 Mar;1(2):131-8.
+231,19079260,Thorleifsson G et al; Nat Genet; 2009 Jan;41(1):18-24.
+232,19122664,Silverberg MS et al; Nat Genet; 2009 Feb;41(2):216-20.
+233,19141561,Kaab S et al; Eur Heart J; 2009 Apr;30(7):813-9.
+234,19151717,Rafnar T et al; Nat Genet; 2009 Feb;41(2):221-7.
+235,19165918,Graham RR et al; Nat Genet; 2008 Sep;40(9):1059-61.
+236,19169253,de Cid R et al; Nat Genet; 2009 Feb;41(2):211-5.
+237,19169254,Nair RP et al; Nat Genet; 2009 Feb;41(2):199-204.
+238,19198609,Myocardial Infarction Genetics Consortium et al; Nat Genet; 2009 Mar;41(3):334-41.
+239,19198610,Gudbjartsson DF et al; Nat Genet; 2009 Mar;41(3):342-7.
+240,19198612,Erdmann J et al; Nat Genet; 2009 Mar;41(3):280-2.
+241,19330027,Ahmed S et al; Nat Genet; 2009 May;41(5):585-90.
+242,19330030,Thomas G et al; Nat Genet; 2009 May;41(5):579-84.
+243,19430480,Barrett JC et al; Nat Genet; 2009 May 10.
+244,19597491,Gudbjartsson DF et al; Nat Genet; 2009 Aug;41(8):876-8.
+245,19734902,Harold D et al; Nat Genet; 2009 Oct;41(10):1088-93.
+246,19767752,Al Olama AA et al; Nat Genet; 2009 Oct;41(10):1058-60.
+247,19767753,Eeles RA et al; Nat Genet; 2009 Oct;41(10):1116-21.
+248,19767754,Gudmundsson J et al; Nat Genet; 2009 Oct;41(10):1122-6.
+249,19838195,Gateva V et al; Nat Genet; 2009 Nov;41(11):1228-33.
+250,20062063,Holm H et al; Nat Genet; 2010 Feb;42(2):117-22.
+251,20081857,Saxena R et al; Nat Genet; 2010 Feb;42(2):142-8.
+252,20081858,Dupuis J et al; Nat Genet; 2010 Feb;42(2):105-16.
+253,1125097,van Geel PP et al; Heart; 2001 Apr; 85(4):458-62.
+254,1415224,Nogueira CP et al; Am J Hum Genet; 1992 Oct; 51(4):821-8.
+255,1570838,Bartels CF et al; Am J Hum Genet; 1992 May; 50(5):1086-103.
+256,1597090,Haas S et al; Chirurg; 1992 Apr; 63(4):271-5.
+257,1764116,Fellay J et al; Science; 2007 Aug 17; 317(5840):944-7.
+258,1782973,Desmeules J et al; Eur J Clin Pharmacol; 1991 41(1):23-6.
+259,2915989,McGuire MC et al; Proc Natl Acad Sci U S A; 1989 Feb; 86(3):953-7.
+260,7477195,Roujeau JC et al; N Engl J Med; 1995 Dec14; 333(24):1600-7.
+261,7862671,Krynetski EY et al; Proc Natl Acad Sci U S A; 1995 Feb 14; 92(4):949-53.
+262,7876235,Kelly RJ et al; J Biol Chem; 1995 Mar 3; 270(9):4640-9.
+263,7969038,De Morais SM et al; Mol Pharmacol; 1994 Oct; 46(4):594-8.
+264,8072460,Gianoulakis C et al; Metab Brain Dis; 1994 Jun; 9(2):105-31.
+265,8195181,de Morais SM et al; J Biol Chem; 1994 Jun 3; 269(22):15419-22.
+266,8728305,Dudley C et al; J Hypertens; 1996 Feb; 14(2):259-62.
+267,8781718,Khoo AK et al; Burns; 1996 Jun; 22(4):275-8.
+268,8841196,Grant SF et al; Nat Genet; 1996 Oct; 14(2):203-5.
+269,9435198,Ferguson RJ et al; J Pharmacol Exp Ther; 1998 Jan; 284(1):356-61.
+270,9679693,Kamaliah MD et al; Int J Dermatol; 1998 Jul; 37(7):520-3.
+271,9738510,Langdahl BL et al; J Bone Miner Res; 1998 Sep; 13(9):1384-9.
+272,9817272,N/A; J Clin Oncol; 1998 Nov; 16(11):3537-41.
+273,9918128,McLeod HL et al; Pharmacogenetics; 1998 Dec; 8(6):455-9.
+274,10022751,Ibeanu GC et al; Pharmacogenetics; 1998 Apr; 8(2):129-35.
+275,10073515,Aithal GP et al; Lancet; 1999 Feb 27; 353(9154):717-9.
+276,10225605,Walker ID et al; Blood Rev; 1999 Mar; 13(1):8-13.
+277,10233211,Sachse C et al; Br J Clin Pharmacol; 1999 Apr; 4.
+278,10392983,Rzany B et al; Lancet; 1999 Jun26; 353(9171):2190-4.
+279,10411572,Ibeanu GC et al; J Pharmacol Exp Ther; 1999 Aug; 290(2):635-40.
+280,10481059,Fiskerstrand CE et al; FEBS Lett; 1999 Sep 17; 458(2):171-4.
+281,10498402,Ma J et al; Cancer Epidemiol Biomarkers Prev; 1999 Sep; 8(9):825-9.
+282,10611371,MacKenzie A et al; Proc Natl Acad Sci U S A; 1999 Dec 21; 96(26):15251-5.
+283,10652619,Kawakami K et al; Anticancer Res; 1999 Jul-Aug; 19(4B):3249-52.
+284,10683861,Kim DK et al; Neuroreport; 2000 Jan 17; 11(1):215-9.
+285,10692979,Marc J et al; Osteoporos Int; 1999 10(4):303-6.
+286,10736278,Gerdes LU et al; Circulation; 2000 Mar 28;101(12):1366-71.
+287,11250978,van Geel PP et al; Heart.; 2001 Apr; 85(4):458-62.
+288,11264478,Xie HG et al; Annu Rev Pharmacol Toxicol; 2001 41:815-50.
+289,11294926,Pirmohamed M et al; Neurology; 2001 Apr 10; 56(7):890-6.
+290,11304783,Evans WE et al; J Clin Oncol; 2001 Apr 15; 19(8):2293-301.
+291,11311507,Minov C et al; Neurosci Lett; 2001 May 4; 303(2):119-22.
+292,11375898,Matsuo K et al; Carcinogenesis; 2001 Jun; 22(6):913-6.
+293,11408373,Yasar U et al; Drug Metab Dispos; 2001 Jul; 29(7):1051-6.
+294,11418485,Ulrich CM et al; Blood; 2001 Jul 1; 98(1):231-4.
+295,11477075,Tirona RG et al; J Biol Chem; 2001 Sep 21; 276(38):35669-75.
+296,11503014,Kim RB et al; Clin Pharmacol Ther; 2001 Aug; 70(2):189-99.
+297,11545752,Bray PF et al; Am J Cardiol; 2001 Aug 15; 88(4):347-52.
+298,11547828,Efstathiadou Z et al; J Bone Miner Res; 2001 Sep; 16(9):1586-92.
+299,11583312,Emmerich J et al; Thromb Haemost; 2001 Sep; 86(3):809-16.
+300,11593098,Kurland L et al; J Hypertens; 2001 Oct; 19(10):1783-7.
+301,11668219,Dai D et al; Pharmacogenetics; 2001 Oct; 11(7):597-607.
+302,11675863,Peyrieere H et al; Ann Pharmacother; 2001 Oct; 35(10):1291-2.
+303,11710708,van Ede AE et al; Arthritis Rheum; 2001 Nov; 44(11):2525-30.
+304,11721885,Conrad S et al; J Hum Genet; 2001 46(11):656-63.
+305,11723016,Undas A et al; Circulation; 2001 Nov 27; 104(22):2666-72.
+306,11749053,Barta C et al; Mol Genet Metab; 2001Dec; 74(4):484-8.
+307,11751037,Wand GS et al; Neuropsychopharmacology; 2002 Jan; 26(1):106-14.
+308,11823761,Yasar U et al; Clin Pharmacol Ther; 2002 Jan; 71(1):89-98.
+309,11830541,Bange J et al; Cancer Res; 2002 Feb 1; 62(3):840-7.
+310,11888582,Mallal S et al; Lancet; 2002 Mar 2; 359(9308):727-32.
+311,11907712,Qureshi AM et al; Calcif Tissue Int; 2002 Mar; 70(3):158-63.
+312,11913730,Pullarkat ST et al; Pharmacogenomics J; 2001 1(1):65-70.
+313,11943262,Hetherington S et al; Lancet; 2002 Mar 30; 359(9312):1121-2.
+314,11997281,Yang P et al; Circulation; 2002 Apr 23; 105(16):1943-8.
+315,12065748,Kimchi-Sarfaty C et al; Mol Pharmacol; 2002 Jul; 62(1):1-6.
+316,12082591,Roberts RL et al; Pharmacogenomics J; 2002 2(3):191-6.
+317,12213289,Boonyaphiphat P et al; Cancer Lett; 2002 Dec 5; 186(2):193-9.
+318,12352921,Yamauchi A et al; Transplantation; 2002 Aug 27; 74(4):571-2.
+319,12374640,Ito K et al; Psychiatry Res; 2002 Aug 30; 111(2-3):235-9.
+320,12411325,Laverdiere C et al; Blood; 2002 Nov 15; 100(10):3832-4.
+321,12419833,Yokoyama A et al; Carcinogenesis; 2002 Nov; 23(11):1851-9.
+322,12429347,Bahadur N et al; Biochem Pharmacol; 2002 Dec 1; 64(11):1579-89.
+323,12453860,Chiusolo P et al; Ann Oncol; 2002 Dec; 13(12):1915-8.
+324,12464799,Blaisdell J et al; Pharmacogenetics; 2002 Dec; 12(9):703-11.
+325,12576843,Sperling H et al; J Urol; 2003 Mar; 169(3):1048-51.
+326,12623934,Sciarrone MT et al; Hypertension; 2003 Mar; 41(3):398-403.
+327,12627468,Hernandez-Avila CA et al; Am J Med Genet B Neuropsychiatr Genet; 2003 Apr 1; 118B(1):60-5.
+328,12668918,Maitland-van der Zee AH et al; Pharmacogenetics; 2003 Apr; 13(4):219-23.
+329,12672737,Thompson PD et al; JAMA; 2003 Apr2; 289(13):1681-90.
+330,12724618,Lando G et al; Pharmacogenetics; 2003 May; 13(5):265-70.
+331,12781336,Morita N et al; Biochem Pharmacol; 2003 Jun 1; 65(11):1843-52.
+332,12782596,Mandola MV et al; Cancer Res; 2003 Jun 1; 63(11):2898-904.
+333,12810179,Mann V et al; Bone; 2003 Jun; 32(6):711-7.
+334,12811365,Nishizato Y et al; Clin Pharmacol Ther; 2003 Jun; 73(6):554-65.
+335,12835612,Kaye DM et al; Pharmacogenetics; 2003 Jul; 13(7):379-82.
+336,12837457,Eisenhardt A et al; Urology; 2003 Jul; 62(1):152-7.
+337,12844134,Johnson JA et al; Clin Pharmacol Ther; 2003 Jul; 74(1):44-52.
+338,12856264,Maiorana A et al; J Oral Maxillofac Surg; 2003 Jul; 61(7):845-7.
+339,12881446,Yen T et al; Clin Chem; 2003 Aug; 49(8):1297-308.
+340,12893985,Kirchheiner J et al; Pharmacogenetics; 2003 Aug; 13(8):473-80.
+341,12912815,Fontana P et al; Circulation; 2003 Aug 26; 108(8):989-95.
+342,12914549,Oselin K et al; Fundam Clin Pharmacol; 2003 Aug; 17(4):463-9.
+343,12915598,Kishi S et al; J Clin Oncol; 2003 Aug 15; 21(16):3084-91.
+344,12966368,Hesselink DA et al; Clin Pharmacol Ther; 2003 Sep; 74(3):245-54.
+345,12975461,Weng WK et al; J Clin Oncol; 2003 Nov 1; 21(21):3940-7.
+346,14515060,Kirchheiner J et al; Pharmacogenetics; 2003 Oct; 13(10):619-26.
+347,14522928,Kawakami K et al; Cancer Res; 2003 Sep 15; 63(18):6004-7.
+348,14534525,Niemi M et al; Clin Pharmacol Ther; 2003 Oct; 74(4):380-7.
+349,14551287,Lamba V et al; J Pharmacol Exp Ther; 2003 Dec; 307(3):906-22.
+350,14600574,Haas DW et al; J Acquir Immune Defic Syndr; 2003 Nov 1; 34(3):295-8.
+351,14662702,Fontana P et al; Circulation; 2003 Dec 16; 108(24):2971-3.
+352,14765194,Rost S et al; Nature; 2004 Feb 5; 427(6974):537-41.
+353,15001971,Peyvandi F et al; Clin Pharmacol Ther; 2004 Mar; 75(3):198-203.
+354,15007088,Innocenti F et al; J Clin Oncol; 2004 Apr 15; 22.
+355,15024131,Martin AM et al; Proc Natl Acad Sci U S A; 2004 Mar 23; 101(12):4180-5.
+356,15037869,Bart G et al; Mol Psychiatry; 2004 Jun; 9(6):547-9.
+357,15044558,Court MH et al; J Pharmacol Exp Ther; 2004 Aug; 310(2):656-65.
+358,15052272,Peters EJ et al; Mol Psychiatry; 2004 Sep; 9(9):879-89.
+359,15057820,Chung WH et al; Nature; 2004 Apr 1; 428(6982):486.
+360,15073101,Dressman MA et al; Clin Cancer Res; 2004 Apr 1; 10(7):2265-71.
+361,15093568,van Kuilenburg AB et al; Eur J Cancer; 2004 May; 40(7):939-50.
+362,15116053,Morin S et al; Clin Pharmacol Ther; 2004 May; 75(5):403-14.
+363,15116054,Mwinyi J et al; Clin Pharmacol Ther; 2004 May; 75(5):415-21.
+364,15121491,Cicoira M et al; Am J Med; 2004 May 15; 116(10):657-61.
+365,15122075,Sparreboom A et al; Invest New Drugs; 2004 Aug; 22(3):285-9.
+366,15138244,Cipollone F et al; JAMA; 2004 May 12; 291(18):2221-8.
+367,15150618,Koh WP et al; Br J Cancer; 2004 May 4; 90(9):1760-4.
+368,15190123,Lang T et al; J Pharmacol Exp Ther; 2004 Oct; 311(1):34-43.
+369,15194512,Tsuchiya K et al; Biochem Biophys Res Commun; 2004 Jul 9; 319(4):1322-6.
+370,15197773,Streit S et al; Int J Cancer; 2004 Aug 20; 111(2):213-7.
+371,15224082,Fukunaga AK et al; Pharmacogenomics J; 2004 4(5):307-14.
+372,15226675,Niemi M et al; Pharmacogenetics; 2004 Jul; 14(7):429-40.
+373,15228163,vans WE et al; Ther Drug Monit; 2004 Apr; 26(2):186-91.
+374,15229462,Sparreboom A et al; Clin Pharmacol Ther; 2004 Jul; 76(1):38-44.
+375,15247625,Hughes DA et al; Pharmacogenetics; 2004 Jun; 14(6):335-42.
+376,15262670,Song Y et al; Ann Intern Med; 2004 Jul 20; 141(2):137-47.
+377,15284536,Hillman MA et al; Pharmacogenetics; 2004 Aug; 14(8):539-47.
+378,15284538,Cheng Q et al; Pharmacogenetics; 2004 Aug; 14(8):557-67.
+379,15352906,Winter J et al; Aliment Pharmacol Ther; 2004 Sep 15; 20(6):593-9.
+380,15453913,Liljedahl U et al; BMC Cardiovasc Disord; 2004 Sep 28; 4(1):16.
+381,15457444,Dervieux T et al; Arthritis Rheum.; 2004 Sep;50(9):2766-74.
+382,15500895,Israel E et al; Lancet; 2004 Oct 23-29; 364(9444):1505-12.
+383,15521904,Mai I et al; Br J Clin Pharmacol; 2004 Nov; 58(5):548-53.
+384,15522280,Sun Z et al; J Mol Cell Cardiol; 2004 Nov; 37(5):1031-9.
+385,15525999,Bart G et al; Neuropsychopharmacology; 2005 Feb; 30(2):417-22.
+386,15564880,Dervieux T et al; Pharmacogenetics; 2004 Nov; 14(11):733-9.
+387,15565110,Binder EB et al; Nat Genet; 2004 Dec; 36(12):1319-25.
+388,15565111,N/A; Nature; 2004 Nov 25; 432(7016):421.
+389,15604153,Tantisira KG et al; Proc Natl Acad Sci U S A; 2004 Dec 28; 101(52):18099-104.
+390,15608594,Ray LA et al; Alcohol Clin Exp Res; 2004 Dec; 28(12):1789-95.
+391,15618689,Soyama A et al; Drug Metab Pharmacokinet; 2002 17(4):374-7.
+392,15666332,Ellingrod VL et al; Am J Med Genet B Neuropsychiatr Genet; 2005 Apr 5; 134B(1):76-8.
+393,15677700,Dervieux T et al; Pharmacogenetics; 2004 Nov; 14(11):733-9.
+394,15681900,Morimoto K et al; Drug Metab Pharmacokinet; 2004 Dec; 19(6):453-5.
+395,15692831,Nakajima Y et al; Eur J Clin Pharmacol; 2005 Mar; 61(1):25-34.
+396,15714076,Sanderson S et al; Genet Med; 2005 Feb; 7(2):97-104.
+397,15722458,Zukunft J et al; Mol Pharmacol; 2005 May; 67(5):1772-82.
+398,15739035,Palomba S et al; Osteoporos Int; 2005 Aug; 16(8):943-52.
+399,15767339,Ulrich CM et al; Cancer Epidemiol Biomarkers Prev; 2005 Mar; 14(3):616-9.
+400,15773232,Yu Y et al; Clin Exp Hypertens; 2005 Jan; 27(1):83-94.
+401,15795539,von Beckerath N et al; Blood Coagul Fibrinolysis; 2005 Apr; 16(3):199-204.
+402,15799206,Burkman RT et al; Treat Endocrinol; 2002 1(3):143-7.
+403,15809899,Tarr PE et al; J Infect Dis; 2005 May 1; 191(9):1419-26.
+404,15820225,Raybould R et al; Biol Psychiatry; 2005 Apr 1; 57(7):696-701.
+405,15879433,Ma JZ et al; Hum Mol Genet; 2005 Jun 15; 14(12):1691-8.
+406,15888487,Yuan HY et al; Hum Mol Genet; 2005 Jul 1; 14(13):1745-51.
+407,15900281,Veenstra DL et al; Clin Pharmacol Ther; 2005 May; 77(5):353-64.
+408,15918040,Yawata A et al; Cancer Chemother Pharmacol; 2005 Nov; 56(5):465-72.
+409,15930419,Rieder MJ et al; N Engl J Med; 2005 Jun2; 352(22):2285-93.
+410,15947090,Sconce EA et al; Blood; 2005 Oct 1; 106(7):2329-33.
+411,15961980,Chung JY et al; Clin Pharmacol Ther; 2005 Jun; 77(6):486-94.
+412,15963097,Russmann S et al; Br J Clin Pharmacol; 2005 Jul; 60(1):76-82.
+413,16041243,Letourneau IJ et al; Pharmacogenet Genomics; 2005 Sep; 15(9):647-57.
+414,16054979,Yokoyama A et al; Alcohol; 2005 Apr; 35(3):175-85.
+415,16113779,Wu O et al; Thromb Haemost; 2005 Jul; 94(1):17-25.
+416,16181985,Angiolillo DJ et al; Thromb Res; 2005 116(6):491-7.
+417,16182121,Morganti M et al; Eur J Cancer; 2005 Sep; 41(14):2176-83.
+418,16257277,Corral-Gudino L et al; Bone; 2006 Apr; 38(4):589-94.
+419,16270629,Geisen C et al; Thromb Haemost; 2005 Oct; 94(4):773-9.
+420,16272958,Klein K et al; Pharmacogenet Genomics; 2005 Dec; 15(12):861-73.
+421,16293801,Lima JJ et al; Am J Respir Crit Care Med; 2006 Feb 15; 173(4):379-85.
+422,16315267,Kwok JB et al; Ann Neurol; 2005 Dec; 58(6):829-39.
+423,16322642,Wechsler ME et al; Am J Respir Crit Care Med; 2006 Mar 1; 173(5):519-26.
+424,16331627,Kim DH et al; Int J Cancer; 2006 May 1; 118(9):2195-201.
+425,16338278,Schwab M et al; Clin Pharmacol Ther; 2005 Dec; 78(6):627-34.
+426,16361630,Goetz MP et al; J Clin Oncol; 2005 Dec 20; 23(36):9312-8.
+427,16385453,Hinrichs AL et al; Am J Hum Genet; 2006 Jan; 78(1):103-11.
+428,16405973,Schettert IT et al; Thromb Res; 2006 118(6):679-83.
+429,16413245,Sim SC et al; Clin Pharmacol Ther; 2006 Jan; 79(1):103-13.
+430,16415921,Lonjou C et al; Pharmacogenomics J; 2006 Jul-Aug; 6(4):265-8.
+431,16417409,Foulkes AS et al; PLoS Med; 2006 Mar; 3(3):e52.
+432,16433794,Mastalerz L et al; Br J Dermatol; 2006 Feb; 154(2):256-60.
+433,16433808,Campalani E et al; Br J Dermatol; 2006 Feb; 154(2):345-52.
+434,16439441,Hughes LB et al; Ann Rheum Dis; 2006 Sep; 6.
+435,16467099,Green H et al; Clin Cancer Res; 2006 Feb 1; 12(3 Pt 1):854-9.
+436,16475872,Ralston SH et al; PLoS Med; 2006 Apr; 3(4):e90.
+437,16476706,Zhang H et al; Hum Mol Genet; 2006 Mar 15; 15(6):807-19.
+438,16495778,Wang J et al; Pharmacogenet Genomics; 2006 Mar; 16(3):191-8.
+439,16522833,Cornelis MC et al; JAMA; 2006 Mar 8; 295(10):1135-41.
+440,16538175,Alfirevic A et al; Pharmacogenet Genomics; 2006 Apr; 16(4):287-96.
+441,16538176,Hung SI et al; Pharmacogenet Genomics; 2006 Apr; 16(4):297-306.
+442,16572443,Wessels JA et al; Arthritis Rheum; 2006 Apr; 54(4):1087-95.
+443,16580898,Aquilante CL et al; Clin Pharmacol Ther; 2006 Apr; 79(4):291-302.
+444,16581111,Lev EI et al; Thromb Res; 2007 119(3):355-60.
+445,16604300,Kampman O et al; J Neural Transm; 2006 Oct; 113(10):1563-8.
+446,16609067,Kim DH et al; Blood; 2006 Oct 15; 108(8):2720-5.
+447,16642436,McMahon FJ et al; Am J Hum Genet; 2006 May; 78(5):804-14.
+448,16678543,Lee YS et al; Clin Pharmacol Ther; 2006 May; 79(5):407-18.
+449,16710319,Bishop JR et al; Neuropsychopharmacology; 2006 Oct; 31(10):2281-8.
+450,16734940,Strous RD et al; Int J Neuropsychopharmacol; 2007 Jun; 10(3):321-33.
+451,16758424,Rauch A et al; Clin Infect Dis; 2006 Jul1; 43(1):99-102.
+452,16758425,Phillips EJ et al; Clin Infect Dis; 2006 Jul 1; 43(1):103-5.
+453,16769602,Smith SM et al; Platelets; 2006 Jun; 17(4):250-8.
+454,16784736,Zhang W et al; Clin Chim Acta; 2006 Nov; 373(1-2):99-103.
+455,16788380,Zhang W et al; Pharmacogenet Genomics; 2006 Jul; 16(7):475-83.
+456,16818689,Ichikawa W et al; Clin Cancer Res; 2006 Jul 1; 12(13):3928-34.
+457,16822847,Thussbas C et al; J Clin Oncol; 2006 Aug 10; 24(23):3747-55.
+458,16844790,Liggett SB et al; Proc Natl Acad Sci U S A; 2006 Jul 25; 103(30):11288-93.
+459,16876132,Berrettini WH et al; Biol Psychiatry; 2007 Jan 1; 61(1):111-8.
+460,16904822,Guo S et al; Neurosci Lett; 2006 Oct 2; 406(1-2):122-7.
+461,16912956,Ritchie MD et al; Clin Infect Dis; 2006 Sep 15; 43(6):779-82.
+462,16912957,Haas DW et al; Clin Infect Dis; 2006 Sep 15; 43(6):783-6.
+463,16950614,Sissung TM et al; Eur J Cancer; 2006 Nov; 42(17):2893-6.
+464,16958828,Shams ME et al; J Clin Pharm Ther; 2006 Oct; 31(5):493-502.
+465,16961627,Bura A et al; J Thromb Haemost; 2006 Sep; 4(9):2096-7.
+466,16981842,Alfirevic A et al; Pharmacogenomics; 2006 Sep; 7(6):813-8.
+467,16998491,de Bakker PI et al; Nat Genet; 2006 Oct; 38(10):1166-72.
+468,17000684,Mattison LK et al; Clin Cancer Res; 2006 Sep 15; 12(18):5491-5.
+469,17015050,Johnstone E et al; Clin Pharmacol Ther; 2006 Oct; 80(4):319-30.
+470,17038883,Lin YC et al; Ther Drug Monit; 2006 Oct; 28(5):668-72.
+471,17048007,Wadelius M et al; Hum Genet; 2007 Mar; 121(1):23-34.
+472,17084840,da Costa Andrade VC et al; Exp Mol Pathol; 2007 Feb; 82(1):53-7.
+473,17112805,Taubert D et al; Clin Pharmacol Ther; 2006 Nov; 80(5):486-501.
+474,17121937,Morel A et al; Mol Cancer Ther; 2006 Nov; 5(11):2895-904.
+475,17148776,Cusatis G et al; J Natl Cancer Inst; 2006 Dec 6; 98(23):1739-42.
+476,17156920,Reyes-Gibby CC et al; Pain; 2007 Jul; 130(1-2):25-30.
+477,17158188,Bierut LJ et al; Hum Mol Genet; 2007 Jan 1; 16(1):24-35.
+478,17177112,Kivisto KT et al; Pharm Res; 2007 Feb; 24(2):239-47.
+479,17178266,Kirchheiner J et al; Clin Pharmacol Ther; 2006 Dec; 80(6):657-67.
+480,17185560,Kimchi-Sarfaty C et al; Science; 2007 Jan 26; 315(5811):525-8.
+481,17190370,Miura M et al; Int J Clin Pharmacol Ther. 2006 Dec;44(12):605-13.
+482,17192893,Pae CU et al; Am J Med Genet B Neuropsychiatr Genet; 2007 Jul 5; 144B(5):701-3.
+483,17194903,Sugiyama E et al; J Clin Oncol; 2007 Jan 1; 25(1):32-42.
+484,17196743,Sasabe T et al; Neurosci Lett; 2007 Jan 29; 412(2):139-42.
+485,17206635,Daniel F et al; Inflamm Bowel Dis; 2007 Jan; 13(1):19-23.
+486,17235330,Rotger M et al; Clin Pharmacol Ther; 2007 Apr; 81(4):557-66.
+487,17286537,van der Straaten RJ et al; Pharmacogenomics; 2007 Feb; 8(2):141-50.
+488,17337040,Cuisset T et al; Thromb Res; 2007 120(6):893-9.
+489,17339526,Barr CS et al; Arch Gen Psychiatry; 2007 Mar; 64(3):369-76.
+490,17341693,Stec DE et al; Physiol Genomics; 2007 Jun 19; 30(1):74-81.
+491,17344938,Hong X et al; Methods Find Exp Clin Pharmacol; 2007 Jan-Feb; 29(1):3-10.
+492,17350823,Yen JL et al; Eur J Cancer; 2007 Apr; 43(6):1011-6.
+493,17353665,Schmitz G et al; Curr Opin Lipidol; 2007 Apr; 18(2):164-73.
+494,17361120,Schurks M et al; Clin Pharmacol Ther; 2007 Oct; 82(4):396-401.
+495,17375033,Liu G et al; Pharmacogenomics J; 2008 Apr; 8(2):129-38.
+496,17376224,Oh J et al; Lipids Health Dis; 2007 Mar 21; 6:7.
+497,17410198,Campalani E et al; J Invest Dermatol; 2007 Aug; 127(8):1860-7.
+498,17436242,Heinzen EL et al; Am J Hum Genet; 2007 May; 80(5):876-83.
+499,17443022,Morrison AC et al; Am J Epidemiol; 2007 Jul 1; 166(1):28-35.
+500,17457342,Riedemann L et al; Pharmacogenomics J; 2008 Feb; 8(1):23-8.
+501,17467803,Sakurai M et al; Ophthalmology; 2007 Jun; 114(6):1039-45.
+502,17488658,Gemmati D et al; Haematologica; 2007 Apr; 92(4):478-85.
+503,17495879,Lee CR et al; Clin Pharmacol Ther; 2008 Jan; 83(1):52-60.
+504,17509035,Kim HS et al; Br J Clin Pharmacol; 2007 Nov; 64(5):645-54.
+505,17510208,Cote JF et al; Clin Cancer Res; 2007 Jun 1; 13(11):3269-75.
+506,17510308,Zhu Y et al; Clin Chem; 2007 Jul; 53(7):1199-205.
+507,17537913,Huang RS et al; Proc Natl Acad Sci U S A; 2007 Jun 5; 104(23):9758-63.
+508,17548750,Perlis RH et al; Arch Gen Psychiatry; 2007 Jun; 64(6):689-97.
+509,17555717,Kishimoto M et al; Biol Psychiatry; 2008 Jan 15; 63(2):191-6.
+510,17558302,Saito Y et al; Pharmacogenet Genomics; 2007 Jul; 17(7):461-71.
+511,17559344,Desta Z et al; Pharmacogenomics; 2007 Jun; 8(6):547-58.
+512,17567623,Chiodini BD et al; Eur Heart J; 2007 Aug; 28(16):1977-83.
+513,17577039,Stewart CF et al; J Clin Oncol; 2007 Jun 20; 25(18):2594-600.
+514,17588543,Campbell DB et al; Biol Psychiatry; 2008 Jan 1; 63(1):32-41.
+515,17597712,Kiser JJ et al; Clin Pharmacol Ther; 2008 Feb; 83(2):265-72.
+516,17600820,Ruano G et al; Muscle Nerve; 2007 Sep; 36(3):329-35.
+517,17602053,Rha SY et al; Oncologist; 2007 Jun; 12(6):622-30.
+518,17602083,Ito N et al; J Clin Oncol; 2007 Jul 1; 25(19):2785-91.
+519,17606663,Matsuzawa D et al; Am J Psychiatry; 2007 Jul; 164(7):1105-14.
+520,17606664,LaRowe SD et al; Am J Psychiatry; 2007 Jul; 164(7):1115-7.
+521,17606665,Janicak PG et al; Am J Psychiatry; 2007 Jul; 164(7):1118.
+522,17609683,Shu Y et al; Clin Pharmacol Ther; 2008 Feb; 83(2):273-80.
+523,17625515,Rudberg I et al; Clin Pharmacol Ther; 2008 Feb; 83(2):322-7.
+524,17635701,Oldenburg J et al; J Thromb Haemost; 2007 Jul; 5 Suppl 1:1-6.
+525,17638512,Zanger UM et al; Pharmacogenomics; 2007 Jul; 8(7):743-59.
+526,17638513,Coenen MJ et al; Pharmacogenomics; 2007 Jul; 8(7):761-73.
+527,17641165,Fellay J et al; Science; 2007 Aug 17; 317(5840):944-7.
+528,17671280,Paddock S et al; Am J Psychiatry; 2007 Aug; 164(8):1181-8.
+529,17700364,Arnedo M et al; Pharmacogenet Genomics; 2007 Sep; 17(9):755-64.
+530,17700365,Suarez-Kurtz G et al; Pharmacogenet Genomics; 2007 Sep; 17(9):765-71.
+531,17700366,Urban TJ et al; Pharmacogenet Genomics; 2007 Sep; 17(9):773-82.
+532,17704420,Zhang W et al; J Clin Oncol; 2007 Aug 20; 25(24):3712-8.
+533,17713466,Ntukidem NI et al; Clin Pharmacol Ther; 2008 May; 83(5):702-10.
+534,17716232,Gusella M et al; Pharmacogenomics; 2007 Aug; 8(8):985-96.
+535,17803810,Cavallari U et al; BMC Med Genet; 2007 Sep 5; 8:59.
+536,17846394,Moore TJ et al; Arch Intern Med; 2007 Sep10; 167(16):1752-9.
+537,17848752,Zhang H et al; Med Oncol; 2007 24(2):251-8.
+538,17851563,Wang J et al; Clin Pharmacol Ther; 2008 May; 83(5):711-7.
+539,17898344,Laje G et al; Am J Psychiatry; 2007 Oct; 164(10):1530-8.
+540,17906972,Gage BF et al; J Thromb Thrombolysis; 2008 Feb; 25(1):45-51.
+541,17909004,Chen G et al; Cancer Res; 2007 Oct 1; 67(19):9024-9.
+542,17913323,Kato M et al; Prog Neuropsychopharmacol Biol Psychiatry; 2008 Feb 15; 32(2):398-404.
+543,17925385,Lamba J et al; Drug Metab Dispos; 2008 Jan; 36(1):169-81.
+544,17959715,Worrillow LJ et al; J Med Genet; 2008 Mar; 45(3):142-6.
+545,17980418,Tantisira KG et al; J Allergy Clin Immunol; 2007 Dec; 120(6):1285-91.
+546,18004207,Hernandez-Avila CA et al; Pharmacogenet Genomics; 2007 Dec; 17(12):1031-8.
+547,18004211,Spraggs C et al; Pharmacogenet Genomics; 2007 Dec; 17(12):1065-76.
+548,18006781,Liu W et al; Clin Cancer Res; 2007 Nov 15; 13(22 Pt 1):6788-95.
+549,18021981,Kusztal M et al; Transplant Proc; 2007 Nov; 39(9):2763-5.
+550,18024866,Schroth W et al; J Clin Oncol; 2007 Nov 20; 25(33):5187-93.
+551,18025780,Valenti L et al; Am J Nephrol; 2008 28(2):311-6.
+552,18033686,Lee CH et al; Int J Cancer; 2008 Mar 15; 122(6):1347-56.
+553,18056659,Budnitz DS et al; Ann Intern Med; 2007 Dec 4; 147(11):755-65.
+554,18058343,David SP et al; Nicotine Tob Res; 2007 Dec; 9(12):1251-7.
+555,18061885,Pander J et al; Drug Discov Today; 2007 Dec; 12(23-24):1054-60.
+556,18070221,Bijl MJ et al; Br J Clin Pharmacol; 2008 Apr; 65(4):558-64.
+557,18073581,Bare LA et al; Genet Med; 2007 Oct; 9(10):682-9.
+558,18089957,Cornelis MC et al; Curr Opin Clin Nutr Metab Care; 2007 Nov; 10(6):745-51.
+559,18156033,Bleecker ER et al; Lancet; 2007 Dec 22; 370(9605):2118-25.
+560,18162312,Corvin A et al; Neurosci Lett; 2008 Jan 31; 431(2):146-9.
+561,18171905,Hofmann MH et al; J Pharmacol Exp Ther; 2008 Apr; 325(1):284-92.
+562,18187595,Kalliokoski A et al; J Clin Pharmacol; 2008 Mar; 48(3):311-21.
+563,18187806,Sissung TM et al; Mol Cancer Ther; 2008 Jan; 7(1):19-26.
+564,18193043,Willer CJ et al; Nat Genet; 2008 Feb; 40(2):161-9.
+565,18195729,Tsai SJ et al; Pharmacogenomics J; 2008 Dec; 8(6):384-90.
+566,18195730,Liu Q et al; Pharmacogenomics J; 2008 Dec; 8(6):375-83.
+567,18204343,Lane HY et al; J Clin Psychopharmacol; 2008 Feb; 28(1):64-8.
+568,18212314,Lynch AI et al; JAMA; 2008 Jan 23; 299(3):296-307.
+569,18215618,Uhr M et al; Neuron; 2008 Jan 24; 57(2):203-9.
+570,18216723,Ho MK et al; Pharmacogenet Genomics; 2008 Jan; 18(1):67-75.
+571,18222353,Iakoubova OA et al; J Am Coll Cardiol; 2008 Jan 29; 51(4):435-43.
+572,18222354,Shiffman D et al; J Am Coll Cardiol; 2008 Jan 29; 51(4):444-8.
+573,18222355,Iakoubova OA et al; J Am Coll Cardiol; 2008 Jan 29; 51(4):449-55.
+574,18234403,D'Andrea G et al; Blood Rev; 2008 May; 22(3):127-40.
+575,18234404,Song Y et al; Environ Pollut; 2008 Nov; 156(1):174-83.
+576,18234405,Haeffel GJ et al; Clin Psychol Rev; 2008 Jun; 28(5):824-36.
+577,18245543,Colomer R et al; Clin Cancer Res; 2008 Feb 1; 14(3):811-6.
+578,18247058,Stanislawska-Sachadyn A et al; Hum Genet; 2008 Apr; 123(3):289-95.
+579,18250228,Caldwell MD et al; Blood; 2008 Apr 15; 111(8):4106-12.
+580,18250251,Anton RF et al; Arch Gen Psychiatry. 2008 Feb;65(2):135-44.
+581,18252229,Scott SA et al; Am J Hum Genet; 2008 Feb; 82(2):495-500.
+582,18253134,Wilkie MJ et al; Pharmacogenomics J; 2009 Feb; 9(1):61-70.
+583,18256392,Mallal S et al; N Engl J Med; 2008 Feb 7; 358(6):568-79.
+584,18256692,Warren RB et al; J Invest Dermatol; 2008 Aug; 128(8):1925-9.
+585,18267032,Huang MY et al; BMC Cancer; 2008 Feb 12; 8:50.
+586,18270208,Nussbaum J et al; Hum Mol Genet; 2008 Jun 1; 17(11):1569-77.
+587,18281915,McClain MR et al; Genet Med; 2008 Feb; 10(2):89-98.
+588,18294295,Kiyotani K et al; Cancer Sci; 2008 May; 99(5):967-72.
+589,18294333,Baldwin RM et al; Br J Clin Pharmacol; 2008 May 65(5):767-74.
+590,18299612,Schwab M et al; J Clin Oncol; 2008 May 1; 26(13):2131-8.
+591,18300939,Chen G et al; Pharmacogenet Genomics; 2008 Mar; 18(3):181-91.
+592,18303965,Lavedan C et al; Pharmacogenomics; 2008 Mar; 9(3):289-301.
+593,18305455,Gage BF et al; Clin Pharmacol Ther; 2008 Sep; 84(3):326-31.
+594,18320559,Adams DH et al; Hum Psychopharmacol; 2008 Jun;23(4):267-74.
+595,18322963,Guo YM et al; World J Gastroenterol; 2008 Mar 7; 14(9):1444-9.
+596,18334920,Haenisch S et al; Pharmacogenet Genomics; 2008 Apr; 18(4):357-65.
+597,18347610,Greenbaum L et al; Pharmacogenomics J; 2009 Apr; 9(2):103-10.
+598,18347611,Schelleman H et al; Pharmacogenomics J; 2008 Dec; 8(6):400-7.
+599,18349090,Binder EB et al; JAMA; 2008 Mar 19; 299(11):1291-305.
+600,18349289,Lankisch TO et al; Cancer Epidemiol Biomarkers Prev; 2008 Mar; 17(3):695-701.
+601,18357466,Huang ZH et al; J Cancer Res Clin Oncol; 2008 Oct; 134(10):1129-34.
+602,18370849,Gatanaga H et al; Pharmacogenomics; 2008 Feb; 9(2):207-14.
+603,18381794,Ranganathan P et al; J Rheumatol; 2008 Apr; 35(4):572-9.
+604,18398146,de Haas EC et al; J Clin Oncol; 2008 Apr 10; 26(11):1817-23.
+605,18398970,Kiser JJ et al; J Acquir Immune Defic Syndr; 2008 Mar 1; 47(3):298-303.
+606,18408560,Poon AH et al; Pharmacogenet Genomics; 2008 May; 18(5):373-82.
+607,18408561,Maggini V et al; Pharmacogenet Genomics; 2008 May; 18(5):383-9.
+608,18408563,Silberberg G et al; Pharmacogenet Genomics; 2008 May; 18(5):403-12.
+609,18425130,Liggett SB et al; Nat Med; 2008 May; 14(5):510-7.
+610,18451141,Huang RS et al; Cancer Res; 2008 May 1; 68(9):3161-8.
+611,18484082,Kato M et al; Am J Med Genet B Neuropsychiatr Genet; 2009 Jan 5; 150B(1):115-23.
+612,18487077,Ansell A et al; Oral Oncol; 2009 Jan; 45(1):23-9.
+613,18496129,Tzvetkov MV et al; Pharmacogenet Genomics; 2008 Jun; 18(6):495-506.
+614,18496682,Bohanec Grabar P et al; Eur J Clin Pharmacol; 2008 Sep; 64(9):871-6.
+615,18504423,Wong ML et al; Mol Psychiatry; 2008 Aug; 13(8):800-12.
+616,18506437,Sahasranaman S et al; Eur J Clin Pharmacol; 2008 Aug; 64(8):753-67.
+617,18509327,Baker SD et al; Clin Pharmacol Ther; 2009 Feb; 85(2):155-63.
+618,18511696,Herrera-Galeano JE et al; Arterioscler Thromb Vasc Biol; 2008 Aug; 28(8):1484-90.
+619,18511948,Fagerholm R et al; Nat Genet; 2008 Jul; 40(7):844-53.
+620,18521091,Volpi S et al; Mol Psychiatry; 2009 Nov; 14(11):1024-31.
+621,18535201,Cooper GM et al; Blood; 2008 Aug 15; 112(4):1022-7.
+622,18536095,Abel S et al; N Engl J Med; 2008 Jun 5; 358(23):2515.
+623,18539621,Hider SL et al; Rheumatology; 2008 Aug; 47(8):1156-9.
+624,18540691,Agostini M et al; Drugs Aging; 2008 25(6):531-9.
+625,18542840,Liu Y et al; J Hum Genet; 2008 53(8):709-17.
+626,18544707,Moore AF et al; Diabetes; 2008 Sep; 57(9):2503-10.
+627,18551042,Fan L et al; Pharmacogenet Genomics; 2008 Jul; 18(7):621-31.
+628,18551043,Peters BJ et al; Pharmacogenet Genomics; 2008 Jul; 18(7):631-6.
+629,18559695,Medina MW et al; Circulation; 2008 Jul 22; 118(4):355-62.
+630,18565259,Rooryck C et al; Clin Exp Rheumatol; 2008 Mar-Apr; 26(2):340-2.
+631,18580170,Nagele P et al; Anesthesiology; 2008 Jul; 109(1):36-43.
+632,18591461,Turner ST et al; Hypertension; 2008 Aug; 52(2):359-65.
+633,18593715,Conti DV et al; Hum Mol Genet; 2008 Sep 15; 17(18):2834-48.
+634,18593894,Krishnamurthy P et al; Cancer Res; 2008 Jul 1; 68(13):4983-9.
+635,18594024,Sarasquete ME et al; Blood; 2008 Oct 1; 112(7):2709-12.
+636,18597649,Kirchheiner J et al; Pharmacogenomics; 2008 Jul; 9(7):841-6.
+637,18615004,Pacanowski MA et al; Clin Pharmacol Ther; 2008 Dec; 84(6):715-21.
+638,18615156,Liu C et al; Mol Med; 2008 Sep-Oct; 14(9-10):575-81.
+639,18617639,Litonjua AA et al; Am J Respir Crit Care Med; 2008 Oct 1; 178(7):688-94.
+640,18618000,Weiss RB et al; PLoS Genet; 2008 Jul 11; 4(7):e1000125.
+641,18618621,Mrazek DA et al; Am J Med Genet B Neuropsychiatr Genet; 2009 Apr 5; 150B(3):341-51.
+642,18637831,Locharernkul C et al; Epilepsia; 2008 Dec; 49(12):2087-91.
+643,18650507,SEARCH Collaborative Group et al; N Engl J Med; 2008 Aug 21; 359(8):789-99.
+644,18650508,Nakamura Y et al; N Engl J Med; 2008 Aug21; 359(8):856-8.
+645,18652519,Puyo S et al; Mol Diagn Ther; 2008 12(4):225-34.
+646,18680736,Wang TL et al; Clin Chim Acta; 2008 Oct; 396(1-2):76-9.
+647,18681781,Srivastava V et al; Pharmacogenomics; 2008 Aug; 9(8):1055-68.
+648,18684101,Colombo S et al; J Infect Dis; 2008 Sep 15; 198(6):864-7.
+649,18685564,Stocco G et al; Clin Pharmacol Ther; 2009 Feb; 85(2):164-72.
+650,18687167,Marini F et al; Curr Med Res Opin; 2008 Sep; 24(9):2609-15.
+651,18693052,Kang ES et al; Mol Genet Metab; 2008 Sep-Oct; 95(1-2):96-100.
+652,18695978,Zanger UM et al; Anal Bioanal Chem; 2008 Nov; 392(6):1093-108.
+653,18717915,Zhang YT et al; Br J Clin Pharmacol; 2008 Aug; 66(2):240-6.
+654,18719619,Madadi P et al; Clin Pharmacol Ther; 2009 Jan; 85(1):31-5.
+655,18776911,Hazra A et al; Nat Genet; 2008 Oct; 40(10):1160-2.
+656,18781850,Couvert P et al; Pharmacogenomics; 2008 Sep; 9(9):1217-27.
+657,18784617,Kwan P et al; Pharmacogenet Genomics; 2008 Nov; 18(11):989-98.
+658,18794724,Tsai SJ et al; Pharmacogenet Genomics; 2008 Oct; 18(10):869-75.
+659,18794727,Geese WJ et al; Pharmacogenet Genomics; 2008 Oct; 18(10):903-10.
+660,18794729,Pasanen MK et al; Pharmacogenet Genomics; 2008 Oct; 18(10):921-6.
+661,18816295,Takahashi H et al; Basic Clin Pharmacol Toxicol; 2008 Aug; 103(2):131-6.
+662,18828808,Landgren S et al; Alcohol Clin Exp Res; 2008 Dec; 32(12):2054-61.
+663,18836089,Chang H et al; Ann Oncol; 2009 Feb; 20(2):272-7.
+664,18851956,Rebecchi IM et al; Biochem Pharmacol; 2009 Jan 1; 77(1):66-75.
+665,18854776,Kalliokoski A et al; Pharmacogenet Genomics; 2008 Nov; 18(11):937-42.
+666,18855526,Gil JP et al; Pharmacogenomics; 2008 Oct; 9(10):1385-90.
+667,18855532,Ikeda M et al; Pharmacogenomics; 2008 Oct; 9(10):1437-43.
+668,18855533,Limdi NA et al; Pharmacogenomics; 2008 Oct; 9(10):1445-58.
+669,18981009,Petain A et al; Clin Cancer Res; 2008 Nov 1; 14(21):7102-9.
+670,18988647,Sathasivam S et al; BMJ; 2008 Nov 6; 337:a2286.
+671,19005160,Tsukahara S et al; Ann Rheum Dis; 2008 Dec; 67(12):1791-2.
+672,19005482,Rocha V et al; Leukemia; 2009 Mar; 23(3):545-56.
+673,19011779,Nakagawa M et al; J Anesth; 2008 22(4):397-403.
+674,19016697,Warren RB et al; Br J Dermatol; 2009 Feb; 160(2):438-41.
+675,19018870,Nishio M et al; Eur J Haematol; 2009 Feb; 82(2):143-7.
+676,19020788,Mossetti G et al; Calcif Tissue Int; 2008 Dec; 83(6):414-24.
+677,19037197,Rau T et al; Clin Pharmacol Ther; 2009 Mar; 85(3):269-72.
+678,19047159,Rokavec M et al; Cancer Res; 2008 Dec 1; 68(23):9799-808.
+679,19076156,Ekhart C et al; Br J Clin Pharmacol; 2009 Jan; 67(1):50-60.
+680,19093297,Sharma S et al; Pharmacogenet Genomics; 2008 Dec; 18(12):1041-9.
+681,19104657,Gross E et al; PLoS One; 2008 3(12):e4003.
+682,19106083,Simon T et al; N Engl J Med; 2009 Jan 22; 360(4):363-75.
+683,19106084,Mega JL et al; N Engl J Med; 2009 Jan 22; 360(4):354-62.
+684,19108880,Collet JP et al; Lancet; 2009 Jan24; 373(9660):309-17.
+685,19112496,Fanello CI et al; PLoS One; 2008 3(12):e4031.
+686,19115972,Park WB et al; Clin Infect Dis; 2009 Feb 1; 48(3):365-7.
+687,19125129,Palomaki GE et al; Genet Med; 2009 Jan; 11(1):21-34.
+688,19129747,Okada Y et al; Clin Pharmacol Ther; 2009 May; 85(5):527-30.
+689,19142101,Mulder H et al; J Clin Psychopharmacol; 2009 Feb; 29(1):16-20.
+690,19143748,Green H et al; Basic Clin Pharmacol Toxicol; 2009 Feb; 104(2):130-7.
+691,19147868,Huang RS et al; CA Cancer J Clin; 2009 Jan-Feb; 59(1):42-55.
+692,19148563,Kruk M et al; Calcif Tissue Int; 2009 Mar; 84(3):171-9.
+693,19151602,Mougey EB et al; Pharmacogenet Genomics; 2009 Feb; 19(2):129-38.
+694,19176441,Yang JJ et al; JAMA; 2009 Jan 28; 301(4):393-403.
+695,19193342,Ujike H et al; J Clin Psychiatry; 2008 Sep; 69(9):1416-22.
+696,19203783,Kim HS et al; Gynecol Oncol; 2009 May; 113(2):264-9.
+697,19204081,Bains OS et al; Drug Metab Dispos; 2009 May; 37(5):1107-14.
+698,19207029,Chien KL et al; Pharmacogenomics; 2009 Feb; 10(2):267-76.
+699,19207032,Pawlik A et al; Pharmacogenomics; 2009 Feb; 10(2):303-9.
+700,19208607,Fisher MC et al; J Rheumatol; 2009 Mar; 36(3):539-45.
+701,19228618,IWPC et al; N Engl J Med; 2009 Feb 19; 360(8):753-64.
+702,19247217,van Noord C et al; Pharmacogenet Genomics; 2009 Apr; 19(4):260-6.
+703,19255940,Maekawa K et al; Xenobiotica; 2009 Feb; 39(2):140-7.
+704,19258584,Ho PM et al; JAMA; 2009 Mar4; 301(9):937-44.
+705,19268276,Vink JM et al; Am J Hum Genet; 2009 Mar; 84(3):367-79.
+706,19270263,Perez-Andreu V et al; Blood; 2009 May 14; 113(20):4977-9.
+707,19272758,Maron E et al; Eur Neuropsychopharmacol; 2009 Jun; 19(6):451-6.
+708,19290018,Breitling LP et al; Pharmacogenomics J; 2009 Aug; 9(4):219-24.
+709,19297519,McDonald MG et al; Mol Pharmacol; 2009 Jun; 75(6):1337-46.
+710,19300499,Takeuchi F et al; PLoS Genet; 2009 Mar; 5(3):e1000433.
+711,19339912,Calarge CA et al; Pharmacogenet Genomics; 2009 May; 19(5):373-82.
+712,19356010,Olivera M et al; Drug Metab Lett; 2007 Jan; 1(1):3-5.
+713,19362955,Kalikaki A et al; Clin Lung Cancer; 2009 Mar; 10(2):118-23.
+714,19365399,Uher R et al; Pharmacogenomics J; 2009 Aug; 9(4):225-33.
+715,19369910,Zuo L et al; Pharmacogenet Genomics; 2009 Jun; 19(6):437-46.
+716,19373123,Doehring A et al; Pharmacogenet Genomics; 2009 Jun; 19(6):407-14.
+717,19374892,He YJ et al; Clin Chim Acta; 2009 Jul; 405(1-2):49-52.
+718,19376514,Su HI et al; Fertil Steril; 2009 Apr 17.
+719,19381165,Becker ML et al; Pharmacogenomics J; 2009 Aug; 9(4):242-7.
+720,19387419,Xiang X et al; Pharmacogenet Genomics; 2009 Jun; 19(6):447-57.
+721,19396436,Liu YZ et al; Eur J Clin Pharmacol; 2009 Jul; 65(7):679-83.
+722,19434073,Caronia D et al; Pharmacogenomics J; 2009 Oct; 9(5):347-53.
+723,19440701,Bertrand J et al; Eur J Clin Pharmacol; 2009 Jul; 65(7):667-78.
+724,19450124,Kwan P et al; Pharmacogenomics; 2009 May; 10(5):723-32.
+725,19451915,Fijal BA et al; Pharmacogenomics J; 2009 Oct; 9(5):311-8.
+726,19452585,Ding JH et al; World J Gastroenterol; 2009 May 21; 15(19):2395-400.
+727,19458626,Mahlknecht U et al; Leukemia; 2009 Oct;23(10):1929-32.
+728,19474787,Keskitalo JE et al; Clin Pharmacol Ther; 2009 Aug; 86(2):197-203.
+729,19483685,Daly AK et al; Nat Genet; 2009 Jul; 41(7):816-9.
+730,19494443,Angelucci F et al; J Alzheimers Dis; 2009 May; 17(1):203-11.
+731,19500084,Smith MA et al; Aliment Pharmacol Ther; 2009 Aug 15; 30(4):375-84.
+732,19506579,Gasso P et al; Pharmacogenomics J; 2009 Dec; 9(6):404-10.
+733,19509150,Glynn SA et al; Clin Cancer Res; 2009 Jun 15; 15(12):4165-73.
+734,19516253,Yoo HD et al; Clin Pharmacol Ther; 2009 Sep; 86(3):281-4.
+735,19528564,Joy TR et al; Ann Intern Med; 2009 Jun 16; 150(12):858-68.
+736,19576352,Ben-Dor I et al; Am J Cardiol; 2009 Jul 15; 104(2):227-33.
+737,19584173,Barbalic M et al; Physiol Genomics; 2009 Sep 9; 39(1):56-60.
+738,19605407,Ginosar Y et al; Br J Anaesth; 2009 Sep; 103(3):420-7.
+739,19622037,Herken H et al; DNA Cell Biol; 2009 Oct; 28(10):515-9.
+740,19625999,Filipski KK et al; Clin Pharmacol Ther; 2009 Oct; 86(4):396-402.
+741,19636336,Glubb DM et al; Pharmacogenomics J; 2010 Apr; 10(2):126-33.
+742,19636338,Laika B et al; Pharmacogenomics J; 2010 Feb; 10(1):20-9.
+743,19648163,Ongaro A et al; Haematologica; 2009 Oct; 94(10):1391-8.
+744,19684573,Ge D et al; Nature; 2009 Sep 17; 461(7262):399-401.
+745,19684603,Trevino LR et al; Nat Genet; 2009 Sep; 41(9):1001-5.
+746,19696793,Low SK et al; J Hum Genet; 2009 Oct; 54(10):564-71.
+747,19698717,Cui R et al; Gastroenterology; 2009 Nov; 137(5):1768-75.
+748,19706858,Shuldiner AR et al; JAMA; 2009 Aug 26; 302(8):849-57.
+749,19749757,Tanaka Y et al; Nat Genet; 2009 Oct; 41(10):1105-9.
+750,19749758,Suppiah V et al; Nat Genet; 2009 Oct; 41(10):1100-4.
+751,19752882,Kurzawski M et al; Pharmacogenomics J; 2010 Apr; 10(2):120-5.
+752,19752884,Cizmarikova M et al; Pharmacogenomics J; 2010 Feb; 10(1):62-9.
+753,19756153,Nishizawa D et al; PLoS One; 2009 Sep 16; 4(9):e7060.
+754,19770842,Winnicki W et al; Pharmacogenomics J; 2010 Feb; 10(1):70-6.
+755,19786980,Khrunin AV et al; Pharmacogenomics J; 2010 Feb; 10(1):54-61.
+756,19794411,Pautas E et al; Clin Pharmacol Ther; 2010 Jan; 87(1):57-64.
+757,19794412,Zhou K et al; Clin Pharmacol Ther; 2010 Jan; 87(1):52-6.
+758,19833260,Voora D et al; J Am Coll Cardiol; 2009 Oct 20; 54(17):1609-16.
+759,19841321,Adjei AA et al; J Clin Oncol; 2010 Feb 1; 28(4):614-9.
+760,19842932,Elens L et al; Pharmacogenomics; 2009 Oct; 10(10):1589-97.
+761,19862937,Sanchez-Borges M et al; J Investig Allergol Clin Immunol; 2009 19(5):375-82.
+762,19865079,Zhao W et al; Clin Pharmacol Ther; 2009 Dec; 86(6):609-18.
+763,19873684,Calarge CA et al; Psychiatr Genet; 2009 Dec; 19(6):320-7.
+764,19884611,Kwon JS et al; Arch Gen Psychiatry; 2009 Nov; 66(11):1233-41.
+765,19884907,Schenk PW et al; Pharmacogenomics J; 2009 Nov 3.
+766,19890249,Picard N et al; Clin Pharmacol Ther; 2010 Jan; 87(1):100-8.
+767,19898263,Becker ML et al; Pharmacogenet Genomics; 2010 Jan; 20(1):38-44.
+768,19901119,Trevino LR et al; J Clin Oncol; 2009 Dec 10; 27(35):5972-8.
+769,19902562,Sharma S et al; Pharmacogenet Genomics; 2009 Oct; 19(10):823-8.
+770,19907160,Bhatnagar V et al; Am J Nephrol; 2010 31(2):95-103.
+771,19916996,He X et al; Br J Clin Pharmacol; 2009 Nov; 68(5):721-30.
+772,19920157,Backes JM et al; Ann Pharmacother; 2009 Dec; 43(12):2012-20.
+773,19940846,Kroetz DL et al; Clin Pharmacol Ther; 2010 Jan; 87(1):109-16.
+774,19952982,Azzato EM et al; Pharmacogenet Genomics; 2010 Jan; 20(1):58-63.
+775,19997080,Correia CT et al; Pharmacogenomics J; 2009 Dec 8.
+776,20017669,Ciccacci C et al; Pharmacogenomics; 2010 Jan; 11(1):23-31.
+777,20029384,Hwang R et al; Pharmacogenomics J; 2009 Dec 22.
+778,20031608,Beitelshees AL et al; Circ Cardiovasc Genet; 2009 Aug; 2(4):362-70.
+779,20038957,Deeken JF et al; Pharmacogenomics J; 2009 Dec 29.
+780,20048079,Wang L et al; Cancer Res; 2010 Jan 1; 70(1):319-28.
+781,20054294,Yu M et al; Clin Pharmacol Ther; 2010 Mar; 87(3):330-5.
+782,20072124,Cavallari LH et al; Clin Pharmacol Ther; 2010 Apr; 87(4):459-64.
+783,20125119,Palma BB et al; Pharmacogenomics J; 2010 Feb 2.
+784,20125120,Hansen TF et al; Pharmacogenomics J; 2010 Feb 2.
+785,PMC1874468,Anke-Hilse Maitland-Van Der Zee et al; Br J Clin Pharmacol; 2002 November; 54(5): 559. 
+786,17693647,Beauclair S et al; Ann Oncol. 2007 Aug;18(8):1335-41.
+787,18846501,Sonuga-Barke EJ et al; Am J Med Genet B Neuropsychiatr Genet; 2008 Dec 5;147B(8):1359-68.
+788,20595579,Sebastiani P et al; Science; 2010 Nov 11; epub.
+789,12879365,Yang N et al; Am J Hum Genet; 2003 Sep;73(3):627-31. 
+790,14521712,Percy MJ et al; Mol Cancer; 2003 Sep 9;2:31. 
+791,15221860,MacArthur DG et al; Bioessays; 2004 Jul;26(7):786-95. 
+792,15718405,Clarkson PM et al; J Appl Physiol; 2005Jul;99(1):154-63. 
+793,15886711,Niemi AK et al; Eur J Hum Genet; 2005 Aug;13(8):965-9.
+794,16421173,Defoor J et al; Eur Heart J; 2006 Apr;27(7):808-16.
+795,16612741,Lucia A et al; Int J Sports Med; 2006 Nov;27(11):880-4.
+796,17033684,Moran CN et al; Eur J Hum Genet; 2007 Jan;15(1):88-93. 
+797,17550918,Santiago C et al; Br J Sports Med; 2008 Jan;42(1):71-3.
+798,17828264,MacArthur DG et al; Nat Genet; 2007 Oct;39(10):1261-5. 
+799,17848603,Vincent B et al; Physiol Genomics; 2007 Dec 19;32(1):58-63.
+800,18178581,MacArthur DG et al; Hum Mol Genet; 2008 Apr 15;17(8):1076-86. 
+801,18443036,September AV et al; Br J Sports Med; 2009 May;43(5):357-65. 
+802,19042922,Raleigh SM et al; Br J Sports Med; 2009 Jul;43(7):514-20.
+803,19139061,Eynon N et al; Exp Physiol; 2009 Mar;94(3):344-9.
+804,19237423,Ruiz JR et al; J Physiol; 2009 Apr1;587(Pt 7):1527-34.
+805,19240858,Ahmetov II et al; Bull Exp Biol Med; 2008 Sep;146(3):351-3. 
+806,19630564,Ostrander EA et al; Annu Rev Genomics Hum Genet; 2009;10:407-29.
+807,19654427,Posthumus M et al; Am J Sports Med; 2009 Nov;37(11):2234-40.
+808,19666693,Eynon N et al; Exp Physiol; 2009 Nov;94(11):1147-52. 
+809,19724965,Wackerhage H et al; J Sports Sci; 2009 Sep;27(11):1109-16.
+810,20005538,Eynon N et al; Metabolism; 2010 Jun;59(6):861-5. 
+811,20029521,Gomez-Gallego F et al; Appl Physiol Nutr Metab; 2009 Dec;34(6):1108-11. 
+812,20044476,Tsianos GI et al; J Appl Physiol; 2010 Mar;108(3):567-74.
+813,20175886,Cauci S et al; BMC Med Genet; 2010 Feb 22;11:29.
+814,20360039,Posthumus M et al; Rheumatology; 2010 Apr 1.
+815,20459474,Buxens A et al; Scand J Med Sci Sports; 2010 Mar 10.
+816,20490824,Kostek MC et al; Eur J Appl Physiol; 2010 May 19.
+817,11440986,Mills M et al; Hum Mol Genet; 2001 Jun 15;10(13):1335-46.
+818,11701704,Kallio J et al; J Clin Endocrinol Metab; 2001 Nov;86(11):5348-52.
+819,15273174,Chicharro JL et al; Br J Sports Med; 2004 Aug;38(4):418-21.  
+820,16506057,Ahmetov II et al; Eur J Appl Physiol; 2006 May;97(1):103-8.
+821,17327385,Stefan N et al; J Clin Endocrinol Metab; 2007 May;92(5):1827-33. 
+822,17478608,Heled Y et al; J Appl Physiol; 2007 Aug;103(2):504-10. 
+823,17716967,Hakimi P et al; J Biol Chem; 2007 Nov 9;282(45):32844-55.
+824,18184751,He Z et al; Br J Sports Med; 2008 May;42(5):361-6.
+825,18423055,Flekac M et al; BMC Med Genet; 2008 Apr 21;9:30.
+826,18801770,Muniesa CA et al; Br J Sports Med; 2010 Sep;44(12):898-901.
+827,19422651,Santiago C et al; Scand J Med Sci Sports; 2010 Feb;20(1):e188-94.
+828,20299614,Doring F et al; J Appl Physiol; 2010 Jun;108(6):1497-500.
+829,20620111,Maciejewska A et al; J Sci Med Sport; 2010 Jul 8.
+830,20639878,Singer JB et al; 2010 Aug; Nat Genet 42(8):711-4.
+831,18195134,Byun E et al; 2008 Mar; Arch Neurol 65(3):337-44.
+832,19556317,Cenit MD et al; 2009 Aug; Mult Scler 15(8):913-7.
+833,19193665,Collins M et al; Br J Sports Med; 2010 Jun 11.
+834,19763819,McInerney NM et al; Breast Cancer Res Treat; 2010 May;121(1):203-10.
+835,18381420,Zhang S et al; Cancer Res; 2008 Apr 1;68(7):2154-7.
+836,16880452,Weischer M et al; J Clin Oncol; 2007 Jan 1;25(1):57-63.
+837,18172190,Weischer M et al; J Clin Oncol; 2008 Feb 1;26(4):542-8.
+838,11967536,Meijers-Heijboer H et al; Nat Genet; 2002 May;31(1):55-9.
+839,14576434,King MC et al; Science; 2003 Oct 24;302(5645):643-6.
+840,9145676,Struewing JP et al; N Engl J Med; 1997 May 15;336(20):1401-8.
+841,18657973,Mohamad HB et al; Breast; 2008 Oct;17(5):441-50. 
+842,11170890,Thompson D et al; Am J Hum Genet; 2001 Feb;68(2):410-9. 
+843,19567422,Milne RL et al; J Natl Cancer Inst; 2009 Jul 15;101(14):1012-8. 
+844,19789366,Zheng W et al; Cancer Epidemiol Biomarkers Prev; 2009 Oct;18(10):2761-4. 
+845,20453838,Turnbull C et al; Nat Genet; 2010 Jun;42(6):504-7. 
+846,20699374,Long J et al; Cancer Epidemiol Biomarkers Prev; 2010 Sep;19(9):2357-65.
+847,20484103,Zheng W et al; J Natl Cancer Inst; 2010 Jul 7;102(13):972-81.
+848,20300826,Zhang J et al; Breast Cancer Res Treat. 2010 Nov;124(2):419-24. 
+849,14767871,Thompson PD et al.; Metabolism; 2004 Feb;53(2):193-202
+850,18576312,Johnsen AK et al.; Arthritis Rheum; 2008 Jul;58(7):1947-57. 
+851,18984674,Argyropoulos G et al.; Physiol Genomics; 2009 Jan 8;36(2):79-88. 
+852,19121198,Rosvik AS et al.; Vox Sang; 2009 Jan;96(1):49-55.
+853,19193663,Posthumus M et al.; Br J Sports Med; 2009 May;43(5):352-6. 
+854,19553224,Santiago C et al.; Br J Sports Med; 2010 Jun 11. 
+855,19569011,Min SK et al.; Int J Sports Med; 2009 Sep;30(9):691-4. 
+856,19727025,De Moor MH et al.; Med Sci Sports Exerc; 2009 Sep 2. 
+857,20407090,Rankinen T et al.; Circ Cardiovasc Genet; 2010 Jun 1;3(3):294-9. 
+858,20724643,Min SK et al.; Am J Sports Med; 2010 Aug 19. 
+859,20798666,Posthumus M et al.; Med Sci Sports Exerc; 2010 Aug 23.
+860,18264097,Eeles RA et al.; Nat. Genet.; 2008 40(3):316-21.
+861,19153072,Chang BL et al.; Hum. Mol. Genet.; 2009 18(7):1368-75.
+862,19318432,Waters KM et al.; Cancer Epidemiol. Biomarkers Prev.; 2009 18(4):1285-9.
+863,19383797,Lou H et al.; Proc. Natl. Acad. Sci. U.S.A.; 2009 106(19):7933-8.
+864,19549807,Xu J et al.; Cancer Epidemiol. Biomarkers Prev.; 2009 18(7):2145-9.
+865,19767753,Eeles RA et al.; Nat. Genet.; 2009 41(10):1116-21.
+866,20406958,Prokunina-Olsson L et al.; Cancer Epidemiol. Biomarkers Prev.; 2009 19(5):1349-55.
+867,20676098,Takata R et al.; Nat. Genet.; 2010 42(9):751-4.
+868,19406499,Ruchat SM et al; Diabetes Res Clin Pract; 2009 Jun;84(3):211-8.
+869,19525953,De Jager PL et al; Nat Genet. 2009 Jul;41(7):776-82. 
+870,19648290,Coenen MJ et al; Hum. Mol. Genet.; 2009; 18(21):4195-203.
+871,19542083,Dema B et al; J. Med. Genet.; 2009; 46(9):617-9.
+872,19648293,Garner CP et al; Hum. Mol. Genet.; 2009; 18(21):4219-25.
+873,19225526,Yang W et al; Genes Immun.; 2009; 10(3):219-26.
+874,19180478,Ito I et al; Arthritis Rheum.; 2009; 60(2):553-8.
+875,19442287,Suarez-Gestal M et al; Arthritis Res. Ther.; 2009; 11(3):R69.
+876,19357697,Chang YK et al; Genes Immun.; 2009; 10(5):414-20.
+877,19838193,Han JW et al; Nat. Genet.; 2009; 41(11):1234-7.
+878,19092840,Delgado-Vega AM et al; Genes Immun.; 2009; 10(3):248-53.
+879,18059267,Cunninghame Graham DS et al; Nat. Genet.; 2009; 40(1):83-9.
+880,18576336,Orozco G et al; Arthritis Rheum.; 2008; 58(7):1974-80.
+881,17932559,Lee HS et al.; Mol. Med.; 2007; 13(9-10):455-60.
+882,18576330,Kobayashi S et al; Arthritis Rheum.; 2008; 58(7):1940-6.
+883,20237121,Kelley JM et al; Ann. Rheum. Dis.; 2010; 69(4):625-6.
+884,19435719,Orozco G et al; Ann. Rheum. Dis.; 2010; 69(5):813-6.
+885,19180477,Lee HS et al.; Arthritis Rheum.; 2009; 60(2):364-71.
+886,19945995,Eyre S et al; Ann. Rheum. Dis.; 2010; 69(8):1572-3.
+887,19503088,Gregersen PK et al; Nat. Genet.; 2009; 41(7):820-3.
+888,19079261,Willer CJ et al; Nat. Genet.; 2009; 41(1):25-34.
+889,19151714,Meyre D et al; Nat. Genet.; 2009; 41(2):157-9.
+890,18454148,Loos RJ et al; Nat. Genet.; 2008; 40(6):768-75.
+891,10903343,Farooqi IS et al; J. Clin. Invest.; 2000; 106(2):271-9.
+892,20173747,Ellinor PT et al; Nat Genet; 2010 Mar;42(3):240-4.
