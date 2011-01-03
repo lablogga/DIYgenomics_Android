@@ -15,9 +15,11 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.flurry.android.FlurryAgent;
+import com.melanieswan.pg.utils.Flurry;
 import com.melanieswan.pg.utils.MLog;
 
-public class StudiesActivity extends Activity {
+public class StudiesActivity extends Activity implements OnItemClickListener {
 
 	static final String TAG = "sa";
 
@@ -37,8 +39,8 @@ public class StudiesActivity extends Activity {
 		MLog.enable(TAG);
 		mData = Main.getData();
 		studies = new ArrayList<Study>();
-		row = (MappingItem) getIntent().getExtras()
-				.getSerializable(CategoryItemActivity.EXTRA_ROW);
+		row = (MappingItem) getIntent().getExtras().getSerializable(
+				CategoryItemActivity.EXTRA_ROW);
 		for (String comp : row.companyRefs.keySet()) {
 			ArrayList<Study> sl = row.companyRefs.get(comp);
 			for (Study st : sl) {
@@ -48,25 +50,26 @@ public class StudiesActivity extends Activity {
 			}
 		}
 		Collections.sort(studies);
-		String condition = getIntent().getStringExtra(CategoriesActivity.EXTRA_ITEM);
+		String condition = getIntent().getStringExtra(
+				CategoriesActivity.EXTRA_ITEM);
 		mMainView = getLayoutInflater().inflate(R.layout.studytable, null);
 		TextView title = (TextView) mMainView.findViewById(R.id.title);
 		title.setText("References: " + condition + ", " + row.getVariant().RSID);
 		list = (ListView) mMainView.findViewById(R.id.list);
 		list.setAdapter(new StudyAdapter());
-		list.setOnItemClickListener(new OnItemClickListener() {
-
-			@Override
-			public void onItemClick(AdapterView<?> arg0, View arg1, int pos,
-					long arg3) {
-				Intent intent = new Intent(Intent.ACTION_VIEW, Uri
-						.parse(studies.get(pos).getUrl()));
-				startActivity(intent);
-
-			}
-		});
+		list.setOnItemClickListener(this);
 		DotUtils.populateCompanyNames(mMainView, mData);
+		FlurryAgent.onEvent(Flurry.EVENT_VARIANT,
+				Flurry.map("variant", row.getVariant().RSID));
 		setContentView(mMainView);
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> arg0, View arg1, int pos, long arg3) {
+		Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(studies.get(
+				pos).getUrl()));
+		FlurryAgent.onEvent(Flurry.EVENT_STUDY, Flurry.map("pmid", studies.get(pos).pubmedid));
+		startActivity(intent);
 	}
 
 	class StudyAdapter extends BaseAdapter {
@@ -92,11 +95,14 @@ public class StudiesActivity extends Activity {
 				convertView = getLayoutInflater().inflate(R.layout.studyitem,
 						null);
 			}
-			convertView.setBackgroundResource(R.drawable.list_selector_background);
+			convertView
+					.setBackgroundResource(R.drawable.list_selector_background);
 			Study study = studies.get(position);
-			TextView citation = (TextView) convertView.findViewById(R.id.citation);
+			TextView citation = (TextView) convertView
+					.findViewById(R.id.citation);
 			citation.setText(study.citation);
-			TextView pubmed = (TextView) convertView.findViewById(R.id.pubmedid);
+			TextView pubmed = (TextView) convertView
+					.findViewById(R.id.pubmedid);
 			pubmed.setText(study.pubmedid);
 			DotUtils.populateDotViews(convertView, row, study, mData);
 			return convertView;

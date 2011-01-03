@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@android:id/progress">
+		<clip
+			android:clipOrientation="horizontal" >
+			<shape>
+				<solid
+					android:color="@color/progress" />
+			</shape>
+		</clip>
+	</item>
+	<item
+		android:id="@android:id/background">
+		<shape>
+			<corners
+				android:radius="2dip" />
+			<solid android:color="@android:color/transparent" />	
+			<stroke
+				android:width="1dip"
+				android:color="@color/progress_dark" />
+		</shape>
+	</item>
+</layer-list>

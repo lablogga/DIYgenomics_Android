@@ -11,6 +11,8 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.BetterListView;
 import android.widget.TextView;
 
+import com.flurry.android.FlurryAgent;
+import com.melanieswan.pg.utils.Flurry;
 import com.melanieswan.pg.utils.MLog;
 
 public class CategoriesActivity extends Activity {
@@ -36,6 +38,7 @@ public class CategoriesActivity extends Activity {
 		mCategoriesAdapter = new CategoriesAdapter();
 		mCategories.setAdapter(mCategoriesAdapter);
 		mCategories.setGroupIndicator(null);
+		FlurryAgent.onEvent(Flurry.EVENT_CATEGORIES);
 		setContentView(view);
 	}
 

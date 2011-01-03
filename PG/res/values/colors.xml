@@ -20,5 +20,6 @@
 	<color name="normal">#ff00ff00</color>
 	<color name="mutated">#ffff0000</color>
 	<color name="progress">#ffb0bfcf</color>
+	<color name="progress_dark">#ffa0afbf</color>
 	<color name="title_bg">#ffc7dbf0</color>
 </resources>

@@ -11,12 +11,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.AdapterView.OnItemClickListener;
 
+import com.flurry.android.FlurryAgent;
 import com.melanieswan.pg.utils.ConditionVariantTableRowComparator;
+import com.melanieswan.pg.utils.Flurry;
 
 public class CategoryItemActivity extends Activity {
 
@@ -42,6 +45,7 @@ public class CategoryItemActivity extends Activity {
 		list.setAdapter(new CVTRAdapter());
 		title.setText(mCategoryItem);
 		DotUtils.populateCompanyNames(mMainView, mData);
+		FlurryAgent.onEvent(Flurry.EVENT_CATITEM, Flurry.map("item", mCategoryItem));
 		setContentView(mMainView);
 
 		list.setOnItemClickListener(new OnItemClickListener() {
@@ -148,8 +152,9 @@ public class CategoryItemActivity extends Activity {
 			} else {
 				normal.setText("");
 			}
-			// gene.setText( padRight( row.variant.gene, 15) );
 			DotUtils.populateDotViews(convertView, row, null, mData);
+			ProgressBar rank = (ProgressBar) convertView.findViewById(R.id.rank);
+			rank.setProgress(row.getVariant().rank);
 			return convertView;
 		}
 

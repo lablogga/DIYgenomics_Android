@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:paddingTop="4dip"
+	android:paddingBottom="4dip">
+	<TextView
+		android:id="@+id/locus"
+		android:layout_width="90dip"
+		android:layout_height="wrap_content"
+		android:textSize="16dip"
+		android:text="locus"
+		android:paddingLeft="4dip" />
+	<TextView
+		android:id="@+id/gene"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:textSize="16dip"
+		android:text="gene"
+		android:lines="1"
+		android:scrollHorizontally="true" />
+	<TextView
+		android:id="@+id/rsid"
+		android:layout_width="110dip"
+		android:layout_height="wrap_content"
+		android:textSize="16dip"
+		android:text="RSID" />
+</LinearLayout>
