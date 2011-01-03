@@ -54,6 +54,8 @@ public class Main extends Activity implements LoaderCallback {
 						"Drug Response", "drugs.csv", 5);
 				sData.loadCategory(context.getAssets(), 
 						"Athletic Performance",	"athperf_cats.csv", 6);
+				// add new categories here
+				// loadCategory( asset manager, name of category, csv filename, mapping table index (0 start)
 				sData.load(context.getAssets());
 				sData.loadGenome(context);
 				return null;
