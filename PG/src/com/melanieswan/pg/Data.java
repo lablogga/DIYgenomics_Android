@@ -102,6 +102,14 @@ public class Data {
 		return companies;
 	}
 	
+	public void deleteGenome(Context ctx) {
+		File file = ctx.getFileStreamPath(FILE_GENOME);
+		if (file.exists()) {
+			file.delete();
+		}
+		genome = null;
+	}
+	
 	public void loadGenome(Context ctx) {
 		try {
 			File file = ctx.getFileStreamPath(FILE_GENOME);

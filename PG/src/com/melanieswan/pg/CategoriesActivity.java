@@ -1,27 +1,33 @@
 package com.melanieswan.pg;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
-import android.graphics.Point;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
-import android.widget.BetterListView;
+import android.widget.BasicExpandableList;
+import android.widget.ExpandableListView;
+import android.widget.ExpandableListView.OnChildClickListener;
+import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.TextView;
 
 import com.flurry.android.FlurryAgent;
 import com.melanieswan.pg.utils.Flurry;
 import com.melanieswan.pg.utils.MLog;
 
-public class CategoriesActivity extends Activity {
+public class CategoriesActivity extends Activity 
+		implements OnGroupClickListener, OnChildClickListener, OnClickListener {
 
 	static final String TAG = "Categories";
 	static final String EXTRA_ITEM = "item";
 
 	private CategoriesAdapter mCategoriesAdapter;
-	private BetterListView mCategories;
+	private BasicExpandableList mCategories;
 	private Data mData;
 
 	/** Called when the activity is first created. */
@@ -34,14 +40,52 @@ public class CategoriesActivity extends Activity {
 		TextView title = (TextView) view.findViewById(R.id.title);
 		View info = view.findViewById(R.id.info);
 		title.setText(getString(R.string.categories_title));
-		mCategories = (BetterListView) view.findViewById(R.id.categories);
+		mCategories = (BasicExpandableList) view.findViewById(R.id.categories);
 		mCategoriesAdapter = new CategoriesAdapter();
 		mCategories.setAdapter(mCategoriesAdapter);
-		mCategories.setGroupIndicator(null);
+		mCategories.setOnGroupClickListener(this);
+		mCategories.setOnChildClickListener(this);
+		info.setOnClickListener(this);
 		FlurryAgent.onEvent(Flurry.EVENT_CATEGORIES);
 		setContentView(view);
 	}
+	
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.menu, menu);
+		return true;
+	}
+	
+	public boolean onOptionsItemSelected(MenuItem item) {
+		if (item.getItemId() == R.id.delete) {
+			mData.deleteGenome(this);
+			return true;
+		}
+		return false;
+	}
 
+	@Override
+	public boolean onChildClick(ExpandableListView arg0, View arg1, int group,
+			int child, long arg4) {
+		String catitem = mData.getCategories().get(group).get(child);
+		Intent intent = new Intent(CategoriesActivity.this, CategoryItemActivity.class);
+		intent.putExtra(EXTRA_ITEM, catitem);
+		startActivity(intent);
+		return true;
+	}
+
+	@Override
+	public boolean onGroupClick(ExpandableListView arg0, View groupview, int group,
+			long arg3) {
+		View ind = groupview.findViewById(R.id.selector);
+		ind.setEnabled(mCategories.isGroupExpanded(group));
+		return true;
+	}
+	
+	@Override
+	public void onClick(View arg0) {
+		InfoHandler.getInstance().showInfo(this, R.string.info_categories);
+	}
+	
 	class CategoriesAdapter extends BaseExpandableListAdapter {
 
 		@Override
@@ -70,18 +114,6 @@ public class CategoriesActivity extends Activity {
 			}
 			tv.setText((String) getChild(group, child));
 			tv.setEnabled(true);
-			tv.setOnClickListener(new OnClickListener() {
-
-				@Override
-				public void onClick(View arg0) {
-					String catitem = mData.getCategories().get(group).get(child);
-					Intent intent = new Intent(CategoriesActivity.this, CategoryItemActivity.class);
-					intent.putExtra(EXTRA_ITEM, catitem);
-					startActivity(intent);
-					
-				}
-			});
-			convertView.setTag(makeTag(group, child));
 			return convertView;
 		}
 
@@ -116,7 +148,6 @@ public class CategoriesActivity extends Activity {
 			ind.setEnabled(mCategories.isGroupExpanded(group));
 			TextView tv = (TextView) convertView.findViewById(R.id.label);
 			tv.setText(getGroup(group).getName());
-			convertView.setTag(makeTag(group, -1));
 			return convertView;
 		}
 
@@ -130,14 +161,6 @@ public class CategoriesActivity extends Activity {
 			return false;
 		}
 		
-		private Point makeTag(int group, int child) {
-			return new Point(group, child);
-		}
-		
 	}
-	
-
-
-
 
 }

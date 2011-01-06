@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -21,7 +22,8 @@ import com.flurry.android.FlurryAgent;
 import com.melanieswan.pg.utils.ConditionVariantTableRowComparator;
 import com.melanieswan.pg.utils.Flurry;
 
-public class CategoryItemActivity extends Activity {
+public class CategoryItemActivity extends Activity
+	implements OnClickListener {
 
 	public static final String EXTRA_ROW = "rowData";
 
@@ -45,6 +47,8 @@ public class CategoryItemActivity extends Activity {
 		list.setAdapter(new CVTRAdapter());
 		title.setText(mCategoryItem);
 		DotUtils.populateCompanyNames(mMainView, mData);
+		View info = mMainView.findViewById(R.id.info);
+		info.setOnClickListener(this);
 		FlurryAgent.onEvent(Flurry.EVENT_CATITEM, Flurry.map("item", mCategoryItem));
 		setContentView(mMainView);
 
@@ -65,6 +69,11 @@ public class CategoryItemActivity extends Activity {
 			}
 		});
 
+	}
+	
+	@Override
+	public void onClick(View arg0) {
+		InfoHandler.getInstance().showInfo(this, R.string.info_catitem);
 	}
 
 	class CVTRAdapter extends BaseAdapter {

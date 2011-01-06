@@ -6,10 +6,9 @@
 	android:orientation="vertical">
 	<include
 		layout="@layout/title" />
-	<android.widget.BetterListView
+	<android.widget.BasicExpandableList
 		android:id="@+id/categories"
 		android:layout_width="fill_parent"
 		android:layout_height="0dip"
-		android:layout_weight="1.0"
-		android:clickable="true" />
+		android:layout_weight="1.0" />
 </LinearLayout>

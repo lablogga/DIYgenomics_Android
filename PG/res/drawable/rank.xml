@@ -4,22 +4,7 @@
 	<item
 		android:id="@android:id/progress">
 		<clip
-			android:clipOrientation="horizontal" >
-			<shape>
-				<solid
-					android:color="@color/progress" />
-			</shape>
-		</clip>
-	</item>
-	<item
-		android:id="@android:id/background">
-		<shape>
-			<corners
-				android:radius="2dip" />
-			<solid android:color="@android:color/transparent" />	
-			<stroke
-				android:width="1dip"
-				android:color="@color/progress_dark" />
-		</shape>
+			android:clipOrientation="horizontal"
+			android:drawable="@drawable/stars" />
 	</item>
 </layer-list>

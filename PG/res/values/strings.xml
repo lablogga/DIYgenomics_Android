@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">DIYGenomics</string>
+	<string name="app_name">DIYgenomics</string>
 	<string name="color_code">deCODEme: (red square), Navigenics: (green square),
 		23andme: (blue square)</string>
 	<string name="deCODEme">deCODEme</string>
@@ -11,4 +11,7 @@
 	<string name="imp_cancel">Cancel</string>
 	<string name="imp_continue">Continue</string>
 	<string name="categories_title">Categories</string>
+	<string name="info_categories">info_categories.html</string>
+	<string name="info_catitem">info_catitem.html</string>
+	<string name="menu_delete">Delete Personal Data</string>
 </resources>
