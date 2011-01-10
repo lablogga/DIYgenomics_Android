@@ -4,6 +4,9 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import org.diygenomics.pg.utils.ConditionVariantTableRowComparator;
+import org.diygenomics.pg.utils.Flurry;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,8 +22,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.flurry.android.FlurryAgent;
-import com.melanieswan.pg.utils.ConditionVariantTableRowComparator;
-import com.melanieswan.pg.utils.Flurry;
 
 public class CategoryItemActivity extends Activity
 	implements OnClickListener {

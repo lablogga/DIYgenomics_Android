@@ -9,13 +9,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.diygenomics.pg.utils.CSVParser;
+import org.diygenomics.pg.utils.MLog;
+import org.diygenomics.pg.utils.Row;
+
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.util.Log;
 
-import com.melanieswan.pg.utils.CSVParser;
-import com.melanieswan.pg.utils.MLog;
-import com.melanieswan.pg.utils.Row;
 
 public class Data {
 

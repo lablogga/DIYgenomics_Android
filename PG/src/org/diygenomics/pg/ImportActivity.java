@@ -12,6 +12,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 import org.diygenomics.pg.Data.LoaderCallback;
+import org.diygenomics.pg.utils.MLog;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -24,7 +25,6 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
-import com.melanieswan.pg.utils.MLog;
 
 /**
  * the main activity show an initial graphic and a progress spinner while

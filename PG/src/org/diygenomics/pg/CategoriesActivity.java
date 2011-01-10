@@ -1,5 +1,8 @@
 package org.diygenomics.pg;
 
+import org.diygenomics.pg.utils.Flurry;
+import org.diygenomics.pg.utils.MLog;
+
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
@@ -17,8 +20,6 @@ import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.TextView;
 
 import com.flurry.android.FlurryAgent;
-import com.melanieswan.pg.utils.Flurry;
-import com.melanieswan.pg.utils.MLog;
 
 public class CategoriesActivity extends Activity 
 		implements OnGroupClickListener, OnChildClickListener, OnClickListener {

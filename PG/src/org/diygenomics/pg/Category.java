@@ -3,8 +3,9 @@ package org.diygenomics.pg;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import com.melanieswan.pg.utils.CSVParser;
-import com.melanieswan.pg.utils.Row;
+import org.diygenomics.pg.utils.CSVParser;
+import org.diygenomics.pg.utils.Row;
+
 
 import android.content.res.AssetManager;
 

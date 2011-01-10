@@ -3,6 +3,9 @@ package org.diygenomics.pg;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import org.diygenomics.pg.utils.Flurry;
+import org.diygenomics.pg.utils.MLog;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -16,8 +19,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.flurry.android.FlurryAgent;
-import com.melanieswan.pg.utils.Flurry;
-import com.melanieswan.pg.utils.MLog;
 
 public class StudiesActivity extends Activity implements OnItemClickListener {
 

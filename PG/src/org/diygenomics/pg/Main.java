@@ -1,6 +1,7 @@
 package org.diygenomics.pg;
 
 import org.diygenomics.pg.Data.LoaderCallback;
+import org.diygenomics.pg.utils.Flurry;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,7 +10,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.flurry.android.FlurryAgent;
-import com.melanieswan.pg.utils.Flurry;
 
 /**
  * the main activity show an initial graphic and a progress spinner while

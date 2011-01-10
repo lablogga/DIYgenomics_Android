@@ -2,7 +2,8 @@ package org.diygenomics.pg;
 
 import java.io.Serializable;
 
-import com.melanieswan.pg.utils.MLog;
+import org.diygenomics.pg.utils.MLog;
+
 
 /**
  * holds a variant (formerly known as snip)

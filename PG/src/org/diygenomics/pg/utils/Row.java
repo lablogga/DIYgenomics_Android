@@ -1,4 +1,4 @@
-package com.melanieswan.pg.utils;
+package org.diygenomics.pg.utils;
 
 import java.util.ArrayList;
 
