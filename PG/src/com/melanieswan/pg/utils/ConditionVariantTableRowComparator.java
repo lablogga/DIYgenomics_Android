@@ -1,8 +1,9 @@
 package com.melanieswan.pg.utils;
 
 import java.util.Comparator;
-import com.melanieswan.pg.MappingItem;
-import com.melanieswan.pg.Variant;
+
+import org.diygenomics.pg.MappingItem;
+import org.diygenomics.pg.Variant;
 
 
 public class ConditionVariantTableRowComparator implements
