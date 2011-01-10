@@ -53,7 +53,7 @@ public class Main extends Activity implements LoaderCallback {
 				sData.loadCategory(context.getAssets(), 
 						"Drug Response - Top 30", "drugs_top30.csv", 7);
 				sData.loadCategory(context.getAssets(), 
-						"Drug Response - 170 More", "drugs.csv", 5);
+						"Drug Response - More", "drugs.csv", 5);
 				sData.loadCategory(context.getAssets(), 
 						"Athletic Performance",	"athperf_cats.csv", 6);
 				// add new categories here
