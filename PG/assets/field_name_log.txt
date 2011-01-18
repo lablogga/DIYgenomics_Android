@@ -1,0 +1,25 @@
+Field Names for Data Tables:
+
+variants.csv
+Key,Variant,Locus,Gene,23andMe_normal,rank
+
+studies.csv
+Key,PMID,Citation
+
+companies.csv
+Key,Entity
+
+conditions.csv
+Key,Condition,Description,Source,Source_URL,Prevention_URL,Treatment_URL,Clinical_trials_URL
+
+drugs.csv and drugs_top30.csv
+Key,Drug,Description,Conditions_treated,Source,Source_URL,Clinical_trials_URL
+
+athperf_cats.csv
+Key,Athletic_perfomance_category,Description,Source,Source_URL,Clinical_trials_URL
+
+mapping.csv
+Key,Variant_key,Condition_key,Drug_key,Athperf_cat_key,Company_key,Study_key
+
+
+
