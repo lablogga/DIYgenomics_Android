@@ -13,13 +13,13 @@ conditions.csv
 Key,Condition,Description,Source,Source_URL,Prevention_URL,Treatment_URL,Clinical_trials_URL
 
 drugs.csv and drugs_top30.csv
-Key,Drug,Description,Conditions_treated,Source,Source_URL,Clinical_trials_URL
+Key,Drug,Description,Conditions_treated,Source,Source_URL,Clinical_trials_URL,FDA_indicated
 
 athperf_cats.csv
 Key,Athletic_perfomance_category,Description,Source,Source_URL,Clinical_trials_URL
 
 mapping.csv
-Key,Variant_key,Condition_key,Drug_key,Athperf_cat_key,Company_key,Study_key
+Key,Variant_key,Company_key,Study_key,Condition_key,Drug_key,Athperf_cat_key,Product_key
 
 
 
